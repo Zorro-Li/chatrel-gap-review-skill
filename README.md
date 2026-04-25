@@ -1,26 +1,57 @@
 # chatrel-gap-review
 
-一个面向 Codex 的开源 skill，用来审计聊天关系分析报告里的覆盖缺口，并把缺失维度背后的论文证据、指标规则和输出字段蒸馏成可复用知识库。
+把聊天关系分析报告里的缺口找出来，再把这些缺口沉淀成下次可复用的知识。
 
-这个 skill 适合已经有聊天关系分析报告产出的工作流。它负责补洞、校验覆盖面、沉淀知识，不负责原始聊天记录导入和基础报告生成。
+这是一个面向 Codex 的开源 skill，服务于两个动作：
 
-## 它能做什么
+- 审计一份已经写完的聊天关系分析报告。
+- 把覆盖不足的维度蒸馏成结构化知识库。
 
-- 扫描报告收件箱里的 Markdown 报告。
-- 按 15 个关系分析维度判断覆盖状态。
-- 对覆盖不足和缺失维度拉取证据并生成补洞建议。
-- 把补洞结果沉淀成结构化知识文件。
-- 同步更新 skill 可复用的参考资料。
+## 一句话定位
 
-## 适用场景
+这是一个报告补洞器，也是一个知识蒸馏器。
 
-- 你已经能生成聊天关系分析报告，想做报告质检。
-- 你希望把“这次没写好”的问题沉淀成“下次自动补上”的知识。
-- 你需要一个研究证据驱动的报告补洞层，而不是纯经验修补。
+## 谁该用
 
-## 覆盖维度
+- 你已经能产出聊天关系分析报告。
+- 你觉得报告质量不稳定，有些维度经常漏写。
+- 你希望把“这次缺了什么”沉淀成“下次自动补什么”。
+- 你要的是研究证据驱动的补洞层，不是拍脑袋修文案。
 
-当前知识库覆盖以下 15 个关系分析维度：
+## 它解决的核心问题
+
+大多数报告系统都会卡在这里：
+
+- 有输出，没有质检。
+- 有缺口，没有系统化补法。
+- 有经验，没有沉淀成知识。
+
+`chatrel-gap-review` 把这三件事收口成一条链路：
+
+1. 找出哪些维度已经覆盖。
+2. 找出哪些维度覆盖不足。
+3. 找出哪些维度完全缺失。
+4. 用证据和字段把缺口沉淀成知识。
+
+## 它会产出什么
+
+运行后会生成或更新三类文件：
+
+```text
+latest_gap_audit.md
+latest_distilled_knowledge.md
+distilled/dimensions/*.md
+```
+
+这些文件分别承担三个职责：
+
+- `latest_gap_audit.md`：记录这份报告缺了什么。
+- `latest_distilled_knowledge.md`：汇总这次新增了什么知识。
+- `distilled/dimensions/*.md`：把每个维度拆成可维护、可复用的知识文件。
+
+## 它审计什么
+
+当前知识库覆盖 15 个关系分析维度：
 
 - 数据充分性
 - 关系背景
@@ -38,13 +69,13 @@
 - 语音、图片与媒介线索
 - 安全边界与置信度
 
-每个维度都会被归入以下状态之一：
+每个维度都会被标记为以下状态之一：
 
 - 已覆盖
 - 覆盖不足
 - 缺失
 
-## 仓库内容
+## 仓库结构
 
 ```text
 chatrel-gap-review/
@@ -68,8 +99,6 @@ chatrel-gap-review/
 
 ## 安装
 
-使用 Codex 自带的 skill installer：
-
 ```bash
 CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
 python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
@@ -79,25 +108,16 @@ python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-gi
 
 安装后重启 Codex，让 skill 元数据重新加载。
 
-## 快速开始
+## 第一条命令
 
-1. 设置本地路径变量：
+先准备本地路径变量：
 
 ```bash
 export HUMANOS_ROOT="/path/to/humanOS"
 export CHATREL_REFERENCES_DIR="/path/to/chatrel/references"
 ```
 
-2. 确保本地工作区具备以下路径约定：
-
-```text
-报告收件箱：${HUMANOS_ROOT}/chatrel_analysis_reports_inbox
-知识输出：${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge
-自动化脚本：${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py
-RAG 配置：${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json
-```
-
-3. 在 Codex 中触发 skill：
+然后在 Codex 里直接触发：
 
 ```text
 /chatrel-gap-review
@@ -107,41 +127,34 @@ RAG 配置：${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation
 把报告缺口蒸馏到知识库
 ```
 
-## 工作方式
+## 工作流
 
-这个 skill 的工作流分成五步：
+这个 skill 的流程固定为五步：
 
-1. 扫描报告收件箱中的 `.md` 报告。
-2. 依据 15 个维度判断哪些内容已经覆盖、哪些内容不足、哪些内容缺失。
+1. 扫描报告收件箱里的 Markdown 报告。
+2. 按 15 个维度判断覆盖状态。
 3. 对覆盖不足和缺失维度调用 RAG 证据检索。
 4. 输出新的覆盖审计和知识蒸馏结果。
-5. 把结果同步到 chatrel skill 的参考资料，供后续诊断和分流复用。
+5. 同步更新后续可复用的参考资料。
 
-## 输出文件
-
-本地运行后会生成或更新以下文件：
+本地默认路径约定：
 
 ```text
-latest_gap_audit.md
-latest_distilled_knowledge.md
-distilled/dimensions/*.md
+报告收件箱：${HUMANOS_ROOT}/chatrel_analysis_reports_inbox
+知识输出：${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge
+自动化脚本：${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py
+RAG 配置：${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json
 ```
-
-这些输出分别用于：
-
-- 记录本次报告在哪些维度存在缺口。
-- 汇总本次新增的蒸馏知识。
-- 让每个维度都有可独立维护、可复用的知识文件。
 
 ## 公开知识包
 
-这个仓库随包发布了一个脱敏后的公开知识包：
+仓库随包发布了一个脱敏后的公开知识包：
 
 ```text
 chatrel-gap-review/references/chatrel_report_knowledge
 ```
 
-公开知识包包含：
+它包含：
 
 - 维度规则
 - 输出字段
@@ -150,11 +163,21 @@ chatrel-gap-review/references/chatrel_report_knowledge
 - 证据等级
 - DOI 和参考链接
 
-这个公开知识包可以直接作为默认参考资料使用。本地运行时，新产出的私有结果仍然写回你自己的 `humanOS` 工作区。
+这个目录可以直接作为默认参考资料使用。本地运行产生的新结果仍然写回你自己的 `humanOS` 工作区。
 
-## 隐私与边界
+## 边界
 
-公开仓库只保留可复用分析知识。以下内容不在公开仓库中：
+这个 skill 服务于“报告补洞与知识蒸馏”阶段。
+
+它要求你已经具备：
+
+- 一个可用的 `humanOS` 本地工作区。
+- 已经生成好的 Markdown 报告。
+- 上游聊天解析和基础诊断能力。
+
+## 隐私范围
+
+公开仓库只保留可复用分析知识。以下内容保留在本地：
 
 - 原始聊天记录
 - 私有报告全文
@@ -165,18 +188,10 @@ chatrel-gap-review/references/chatrel_report_knowledge
 - PDF 文件
 - 长篇原始证据摘录
 
-这个 skill 的设计目标是公开规则和结构，保留私有数据在本地。
-
-## 局限
-
-- 它依赖一个已经存在的 `humanOS` 本地工作区。
-- 它假设输入是已经生成好的 Markdown 报告。
-- 它服务的是“报告补洞与知识蒸馏”阶段，不覆盖聊天解析和基础诊断的完整上游流程。
-
-## 适合怎么维护
+## 维护建议
 
 - 改工作流时，更新 `chatrel-gap-review/SKILL.md`。
 - 改维度知识时，更新 `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`。
 - 改 GitHub 首页说明时，更新根目录 `README.md`。
 
-这个仓库适合保持小而清晰：入口放在 `SKILL.md`，细节放在 `references/`，公开主页只解释用途、安装、使用方式和边界。
+这个仓库适合保持小、清晰、稳定：入口放在 `SKILL.md`，细节放在 `references/`，主页只负责把产品说清楚。
