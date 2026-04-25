@@ -1,81 +1,55 @@
 # chatrel-gap-review
 
-把聊天关系分析报告里的缺口找出来，再把这些缺口沉淀成下次可复用的知识。
+微信聊天记录分析、两个人关系分析、聊天记录生成关系报告的开源方法库。
 
-这是一个面向 Codex 的开源 skill，服务于两个动作：
+这个仓库把一条完整链路放在一起：
 
-- 审计一份已经写完的聊天关系分析报告。
-- 把覆盖不足的维度蒸馏成结构化知识库。
+- 从聊天记录里提取关系信号。
+- 把关系信号组织成可引用的分析维度。
+- 把分析维度写成关系报告。
+- 再把报告里的缺口回流成知识库。
 
-## 一句话定位
+## 这类项目在小红书最容易拿到什么流量
 
-这是一个报告补洞器，也是一个知识蒸馏器。
+如果目标是小红书流量，最大入口不是泛泛的“心理学知识”，而是搜索流量。
 
-## 谁该用
+这个题材最容易被搜的不是抽象词，而是具体问题词：
 
-- 你已经能产出聊天关系分析报告。
-- 你觉得报告质量不稳定，有些维度经常漏写。
-- 你希望把“这次缺了什么”沉淀成“下次自动补什么”。
-- 你要的是研究证据驱动的补洞层，不是拍脑袋修文案。
+- 微信聊天记录分析
+- 两个人关系分析
+- 聊天记录生成关系报告
+- 聊天记录怎么看关系强度
+- 回复速度怎么看关系
+- 语言风格匹配怎么看
+- 聊天里的权力角色怎么看
+- 冲突破裂和修复怎么看
 
-## 它解决的核心问题
+所以这个 README 不按“技术仓库说明书”的方式写，而按“用户正在搜索什么”来写。
 
-大多数报告系统都会卡在这里：
+## 你大概率是因为这些问题进来的
 
-- 有输出，没有质检。
-- 有缺口，没有系统化补法。
-- 有经验，没有沉淀成知识。
+- 微信聊天记录能不能分析两个人关系？
+- 聊天记录怎么做成一份关系分析报告？
+- 两个人关系强不强，聊天里看什么？
+- 回复速度、互惠、语言风格匹配，怎么落成结构化判断？
+- 聊天分析怎么做得更可靠，怎么避免拍脑袋？
+- 报告写完以后，怎么继续补洞，怎么把缺口沉淀成知识？
 
-`chatrel-gap-review` 把这三件事收口成一条链路：
+这个仓库就是为这些问题准备的。
 
-1. 找出哪些维度已经覆盖。
-2. 找出哪些维度覆盖不足。
-3. 找出哪些维度完全缺失。
-4. 用证据和字段把缺口沉淀成知识。
+## 这个仓库到底是什么
 
-## 它会产出什么
+这不是一个只会输出结论的 prompt 仓库。
 
-运行后会生成或更新三类文件：
+这是一个把“聊天分析 -> 关系报告 -> 报告补洞 -> 知识沉淀”做成方法资产的开源 skill 包。
 
-```text
-latest_gap_audit.md
-latest_distilled_knowledge.md
-distilled/dimensions/*.md
-```
+它适合三类人：
 
-这些文件分别承担三个职责：
+- 想做微信聊天记录分析的人。
+- 想把两个人关系分析做成内容或产品的人。
+- 已经能写报告，但报告质量不稳定、知识沉淀不稳定的人。
 
-- `latest_gap_audit.md`：记录这份报告缺了什么。
-- `latest_distilled_knowledge.md`：汇总这次新增了什么知识。
-- `distilled/dimensions/*.md`：把每个维度拆成可维护、可复用的知识文件。
-
-## 它审计什么
-
-当前知识库覆盖 15 个关系分析维度：
-
-- 数据充分性
-- 关系背景
-- 关系强度
-- 互惠与投入平衡
-- 回复节奏
-- 话题连续性
-- 情绪与情感表达
-- 情绪支持
-- 信任、亲密与默契
-- 冲突修复
-- 权力与角色结构
-- 语言风格匹配
-- 时间趋势
-- 语音、图片与媒介线索
-- 安全边界与置信度
-
-每个维度都会被标记为以下状态之一：
-
-- 已覆盖
-- 覆盖不足
-- 缺失
-
-## 仓库结构
+## 仓库里有什么
 
 ```text
 chatrel-gap-review/
@@ -87,15 +61,65 @@ chatrel-gap-review/
     └── chat_analysis_pipeline/
 ```
 
-关键文件：
+三组公开知识包各自负责不同事情：
 
-- `chatrel-gap-review/SKILL.md`：skill 入口，定义触发方式、路径约定和执行流程。
-- `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`：按维度拆分的蒸馏知识。
-- `chatrel-gap-review/references/chatrel_report_knowledge/latest_gap_audit.md`：当前审计框架的覆盖快照。
-- `chatrel-gap-review/references/chatrel_report_knowledge/latest_distilled_knowledge.md`：合并后的知识总览。
-- `chatrel-gap-review/references/foundation_knowledge/dyadic_taxonomy.json`：基础知识库的领域和信号分类。
-- `chatrel-gap-review/references/foundation_knowledge/dyadic_papers_manifest.json`：基础知识库的公开论文元数据清单。
-- `chatrel-gap-review/references/chat_analysis_pipeline/`：从聊天分析到关系报告的流程知识、schema、prompt 和脚本。
+- `chatrel_report_knowledge/`
+  - 负责报告补洞。
+  - 提供维度规则、输出字段、覆盖审计快照、蒸馏后的维度知识。
+
+- `foundation_knowledge/`
+  - 负责基础知识库。
+  - 提供 dyadic taxonomy 和公开论文元数据清单。
+
+- `chat_analysis_pipeline/`
+  - 负责从聊天分析到关系报告的方法层。
+  - 提供 analysis blueprint、chat-specific retrieval overview、RAG config、output schema、prompt、视频脚本。
+
+## 如果你要做“小红书能跑起来”的内容
+
+这个仓库最适合拆成搜索型内容矩阵。
+
+不要先讲“大而全”的关系学理论。先讲用户会主动搜的问题。
+
+优先顺序应该是：
+
+1. 先打总需求词：
+   - 微信聊天记录分析
+   - 两个人关系分析
+   - 聊天记录关系报告
+
+2. 再打可拆的子问题词：
+   - 关系强度
+   - 回复速度
+   - 语言风格匹配
+   - 共情支持
+   - 权力角色
+   - 冲突修复
+
+3. 再打“怎么做得可靠”这种方法词：
+   - 聊天分析怎么做得可靠
+   - 聊天记录分析怎么避免误判
+   - 聊天分析怎么写成报告
+
+仓库里已经直接给了这类拆法：
+
+- `chat_analysis_pipeline/video_scripts/`：8 条可直接做成小红书短视频的逐字稿。
+- `chat_analysis_pipeline/chat_record_analysis_blueprint.md`：从字段到特征到报告的总蓝图。
+- `chat_analysis_pipeline/rag_system/`：报告生成的维度、schema 和 prompt。
+
+## 你会拿到什么
+
+如果你是做产品，你会拿到：
+
+- 一套聊天关系分析的维度体系。
+- 一套从聊天记录到关系报告的结构化方法。
+- 一套报告补洞和知识回流机制。
+
+如果你是做内容，你会拿到：
+
+- 一组强搜索需求的内容主题。
+- 一套能拆成系列内容的分析框架。
+- 一组可以反复复用的视频脚本和方法文档。
 
 ## 安装
 
@@ -131,11 +155,11 @@ export CHATREL_REFERENCES_DIR="/path/to/chatrel/references"
 
 这个 skill 的流程固定为五步：
 
-1. 扫描报告收件箱里的 Markdown 报告。
-2. 按 15 个维度判断覆盖状态。
+1. 扫描已经生成好的 Markdown 关系报告。
+2. 按 15 个维度判断哪些内容已覆盖、哪些内容覆盖不足、哪些内容缺失。
 3. 对覆盖不足和缺失维度调用 RAG 证据检索。
 4. 输出新的覆盖审计和知识蒸馏结果。
-5. 同步更新后续可复用的参考资料。
+5. 把结果同步到后续可复用的参考资料。
 
 本地默认路径约定：
 
@@ -145,24 +169,6 @@ export CHATREL_REFERENCES_DIR="/path/to/chatrel/references"
 自动化脚本：${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py
 RAG 配置：${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json
 ```
-
-## 公开知识包
-
-仓库随包发布了三组公开知识包：
-
-```text
-chatrel-gap-review/references/chatrel_report_knowledge
-chatrel-gap-review/references/foundation_knowledge
-chatrel-gap-review/references/chat_analysis_pipeline
-```
-
-它们分别提供：
-
-- 报告补洞知识：维度规则、输出字段、覆盖审计快照、论文标题、证据等级、DOI 和参考链接。
-- 基础知识库：dyadic taxonomy 和公开论文元数据清单。
-- 分析到报告的方法层：analysis blueprint、chat-specific retrieval overview、RAG config、output schema、prompt、视频脚本。
-
-这些目录可以直接作为默认参考资料使用。本地运行产生的新结果仍然写回你自己的 `humanOS` 工作区。
 
 ## 边界
 
@@ -192,7 +198,9 @@ chatrel-gap-review/references/chat_analysis_pipeline
 ## 维护建议
 
 - 改工作流时，更新 `chatrel-gap-review/SKILL.md`。
-- 改维度知识时，更新 `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`。
+- 改基础知识库时，更新 `chatrel-gap-review/references/foundation_knowledge/`。
+- 改分析到报告的方法层时，更新 `chatrel-gap-review/references/chat_analysis_pipeline/`。
+- 改报告补洞知识时，更新 `chatrel-gap-review/references/chatrel_report_knowledge/`。
 - 改 GitHub 首页说明时，更新根目录 `README.md`。
 
-这个仓库适合保持小、清晰、稳定：入口放在 `SKILL.md`，细节放在 `references/`，主页只负责把产品说清楚。
+这个仓库最有价值的地方，不是“又一个 AI 分析工具”，而是它把聊天关系分析做成了可以复用、可以拆内容、可以继续长知识库的资产。
