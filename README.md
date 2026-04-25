@@ -1,117 +1,46 @@
-# Chatrel Gap Review Skill
+# chatrel-gap-review：聊天关系报告缺口审计 Skill
 
-A public Codex skill for auditing chat relationship analysis reports, identifying missing analytical dimensions, and distilling reusable relationship-science knowledge into a local reference base.
+这是一个用于 Codex 的公开 skill。它会审计聊天关系分析报告，找出关系分析维度里的覆盖缺口，并把可复用的论文证据、指标规则和输出字段蒸馏成知识库。
 
-This repository is English-first for the GitHub homepage. A Chinese version is included below.
+公开仓库地址：`Zorro-Li/chatrel-gap-review-skill`
 
-## What This Skill Does
+## 它解决什么问题
 
-`chatrel-gap-review` helps Codex review Markdown relationship-analysis reports and answer three questions:
+聊天关系分析报告很容易出现三个问题：
 
-- Which relationship-analysis dimensions are covered?
-- Which dimensions are missing or underdeveloped?
-- Which literature-backed rules, metrics, and output fields should be added to the knowledge base?
+- 有些维度写得很细，有些维度完全缺席。
+- 报告结论缺少可追溯的论文证据和指标来源。
+- 每次报告补洞都靠人工经验，难以沉淀成下一次可复用的知识。
 
-The skill is designed for a local `humanOS` workflow, but the published package contains only reusable skill instructions and redacted reference knowledge.
+`chatrel-gap-review` 的目标是把报告审计变成稳定流程：先判断覆盖状态，再定位缺口，再把缺口转化成结构化知识。
 
-## Repository Contents
+## 它会审计哪些内容
 
-```text
-chatrel-gap-review/
-├── SKILL.md
-└── references/
-    └── chatrel_report_knowledge/
-        ├── PUBLICATION_NOTES.md
-        ├── README.md
-        ├── latest_gap_audit.md
-        ├── latest_distilled_knowledge.md
-        └── distilled/
-            └── dimensions/*.md
-```
+当前知识库按 15 个关系分析维度组织：
 
-Key files:
+- 数据充分性
+- 关系背景
+- 关系强度
+- 互惠与投入平衡
+- 回复节奏
+- 话题连续性
+- 情绪与情感表达
+- 情绪支持
+- 信任、亲密与默契
+- 冲突修复
+- 权力与角色结构
+- 语言风格匹配
+- 时间趋势
+- 语音、图片与媒介线索
+- 安全边界与置信度
 
-- `chatrel-gap-review/SKILL.md`: the Codex skill entrypoint.
-- `chatrel-gap-review/references/chatrel_report_knowledge/latest_gap_audit.md`: redacted audit coverage snapshot.
-- `chatrel-gap-review/references/chatrel_report_knowledge/latest_distilled_knowledge.md`: merged redacted knowledge distilled from report gaps.
-- `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`: one reusable knowledge file per analysis dimension.
-- `chatrel-gap-review/references/chatrel_report_knowledge/PUBLICATION_NOTES.md`: what was included and excluded during publication.
+每个维度都会围绕三个判断结果输出：
 
-## How This Package Was Built
+- 已覆盖
+- 覆盖不足
+- 缺失
 
-1. The original local skill was located inside the `humanOS` workspace.
-2. A clean public repository layout was created with the standard Codex skill folder shape: `chatrel-gap-review/SKILL.md`.
-3. Machine-specific paths were replaced with environment variables:
-   - `HUMANOS_ROOT`
-   - `CHATREL_REFERENCES_DIR`
-4. The local relationship-report knowledge base was reviewed and split into a public subset.
-5. Reusable dimension rules, audit fields, literature titles, evidence levels, and DOI references were kept.
-6. Private material was excluded before publication:
-   - raw chat records
-   - generated `runs/` logs
-   - JSON evidence bundles
-   - private report filenames
-   - local absolute paths
-   - PDF files
-   - long extracted evidence snippets
-7. The public tree was scanned for sensitive strings before push.
-8. The repository was pushed through SSH using a repository-scoped GitHub deploy key. The private key remains local and is not committed.
-
-## Install
-
-Install the skill from GitHub:
-
-```bash
-CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
-python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo Zorro-Li/chatrel-gap-review-skill \
-  --path chatrel-gap-review
-```
-
-Restart Codex after installation so the skill metadata is reloaded.
-
-## Usage
-
-Trigger examples:
-
-- `/chatrel-gap-review`
-- `/报告补洞`
-- `/知识库蒸馏`
-- `看看报告哪里没覆盖`
-- `把报告缺口蒸馏到知识库`
-
-For local automation, set the required paths first:
-
-```bash
-export HUMANOS_ROOT="/path/to/humanOS"
-export CHATREL_REFERENCES_DIR="/path/to/chatrel/references"
-```
-
-Then follow the command documented in `chatrel-gap-review/SKILL.md`.
-
-## Privacy Scope
-
-The published files are intended as reusable analysis knowledge. They contain no raw chat records and no private report corpus. The public package keeps the reasoning framework and literature-backed schema, while local execution can still write private audit outputs back into a private `humanOS` workspace.
-
-## 中文说明
-
-### Chatrel Gap Review Skill
-
-这是一个公开的 Codex skill，用来审计聊天关系分析报告里的缺口，判断哪些关系分析维度覆盖不足，并把可复用的论文证据、指标和输出字段蒸馏成知识库。
-
-GitHub 主页采用英文优先；中文说明放在下半部分，方便中文使用者安装和理解。
-
-### 这个 Skill 做什么
-
-`chatrel-gap-review` 会帮助 Codex 检查 Markdown 格式的关系分析报告，并回答三个问题：
-
-- 哪些关系分析维度已经覆盖？
-- 哪些维度缺失或覆盖不足？
-- 哪些论文支持的规则、指标和输出字段应该补进知识库？
-
-它服务于本地 `humanOS` 工作流。公开仓库只包含 skill 指令和已脱敏的参考知识。
-
-### 仓库内容
+## 仓库结构
 
 ```text
 chatrel-gap-review/
@@ -128,35 +57,43 @@ chatrel-gap-review/
 
 主要文件：
 
-- `chatrel-gap-review/SKILL.md`：Codex skill 入口文件。
+- `chatrel-gap-review/SKILL.md`：Codex skill 入口文件，定义触发方式、路径约定、工作流和执行命令。
 - `chatrel-gap-review/references/chatrel_report_knowledge/latest_gap_audit.md`：脱敏后的覆盖审计快照。
 - `chatrel-gap-review/references/chatrel_report_knowledge/latest_distilled_knowledge.md`：合并后的脱敏知识库。
-- `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`：按分析维度拆开的知识文件。
-- `chatrel-gap-review/references/chatrel_report_knowledge/PUBLICATION_NOTES.md`：公开发布时包含和排除的范围。
+- `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`：按维度拆分的知识文件。
+- `chatrel-gap-review/references/chatrel_report_knowledge/PUBLICATION_NOTES.md`：公开发布时的范围说明。
 
-### 这次是怎么做成并上传的
+## 制作流程
 
-1. 在本地 `humanOS` 工作区里定位原始 skill。
-2. 按 Codex skill 的标准结构整理成公开目录：`chatrel-gap-review/SKILL.md`。
-3. 把本机路径替换成配置变量：
+这次发布按以下流程完成：
+
+1. 定位本地原始 skill。
+2. 按 Codex skill 标准结构整理成 `chatrel-gap-review/SKILL.md`。
+3. 把本机绝对路径替换成配置变量：
    - `HUMANOS_ROOT`
    - `CHATREL_REFERENCES_DIR`
-4. 检查本地关系报告知识库，并拆出可公开发布的子集。
-5. 保留可复用的维度规则、审计字段、论文标题、证据等级和 DOI 引用。
-6. 发布前排除私有内容：
+4. 检查本地聊天关系报告知识库，拆出可公开发布的参考资料。
+5. 保留可复用内容：
+   - 维度规则
+   - 审计字段
+   - 输出结构
+   - 论文标题
+   - 证据等级
+   - DOI 引用
+6. 把私有材料留在本地：
    - 原始聊天记录
-   - 自动运行产生的 `runs/` 日志
+   - 自动运行日志
    - JSON evidence bundle
    - 私有报告文件名
-   - 本地绝对路径
+   - 本机绝对路径
    - PDF 文件
    - 长篇原始证据摘录
-7. 推送前对公开目录做敏感词扫描。
-8. 通过 SSH 和 GitHub deploy key 从终端推送到 GitHub。私钥只保存在本机，没有提交进仓库。
+7. 对公开目录做敏感信息扫描。
+8. 使用 GitHub deploy key 从终端推送到 GitHub。
 
-### 安装
+## 安装方式
 
-从 GitHub 安装：
+使用 Codex 自带的 skill installer 安装：
 
 ```bash
 CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
@@ -167,9 +104,9 @@ python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-gi
 
 安装后重启 Codex，让 skill 元数据重新加载。
 
-### 使用方式
+## 触发方式
 
-触发方式：
+可用触发语：
 
 - `/chatrel-gap-review`
 - `/报告补洞`
@@ -177,15 +114,67 @@ python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-gi
 - `看看报告哪里没覆盖`
 - `把报告缺口蒸馏到知识库`
 
-本地跑自动化脚本前，先设置路径：
+## 本地运行配置
+
+本地自动化依赖两个路径变量：
 
 ```bash
 export HUMANOS_ROOT="/path/to/humanOS"
 export CHATREL_REFERENCES_DIR="/path/to/chatrel/references"
 ```
 
-具体执行命令见 `chatrel-gap-review/SKILL.md`。
+`HUMANOS_ROOT` 指向本地 humanOS 项目根目录。
+`CHATREL_REFERENCES_DIR` 指向 chatrel skill 的参考资料目录。
 
-### 脱敏边界
+skill 内部默认使用以下路径约定：
 
-公开文件只作为可复用的分析知识使用。仓库里没有原始聊天记录，也没有私有报告语料。公开包保留分析框架和论文支持的结构化规则；本地运行时产生的新审计结果仍然可以写回私有的 `humanOS` 工作区。
+```text
+报告收件箱：${HUMANOS_ROOT}/chatrel_analysis_reports_inbox
+知识输出：${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge
+自动化脚本：${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py
+RAG 配置：${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json
+随包公开知识库：references/chatrel_report_knowledge
+```
+
+## 输出结果
+
+本地运行后会生成或更新三类知识文件：
+
+```text
+latest_gap_audit.md
+latest_distilled_knowledge.md
+distilled/dimensions/*.md
+```
+
+这些文件用于服务后续的聊天关系诊断、报告补洞和知识库迭代。
+
+## 隐私边界
+
+公开仓库只保留可复用的分析框架和论文支持的结构化规则。私有聊天记录、私有报告语料、运行日志、证据包和本机路径均保留在本地工作区。
+
+推送前执行了敏感词扫描，检查范围包含：
+
+- 本机路径
+- 用户名
+- 私有项目名
+- 私有报告名
+- 邮箱
+- 手机号
+- 聊天字段标识
+
+## GitHub 推送方式
+
+仓库地址：
+
+```text
+https://github.com/Zorro-Li/chatrel-gap-review-skill
+```
+
+本地通过仓库级 GitHub deploy key 推送。deploy key 仅授权这个仓库，私钥保存在本机 SSH 目录，仓库内只保存公开 skill 和脱敏知识库。
+
+## 推荐维护方式
+
+新增知识时，优先更新 `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`。
+新增工作流时，更新 `chatrel-gap-review/SKILL.md`。
+新增公开说明时，更新根目录 `README.md`。
+每次推送前执行敏感信息扫描，确认公开目录只包含可复用知识。
