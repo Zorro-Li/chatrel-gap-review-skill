@@ -1,7 +1,7 @@
 ---
 name: chatrel-gap-review
 description: |
-  聊天记录关系分析报告自动审计与知识库蒸馏。扫描 humanOS 根目录收件箱中的 Markdown 报告，判断哪些维度覆盖不足，并把对应论文证据蒸馏到 Knowledge of 心理学和 Skill 参考资料。
+  聊天记录关系分析报告自动审计与知识库蒸馏。扫描 humanOS 项目收件箱中的 Markdown 报告，判断哪些维度覆盖不足，并把对应论文证据蒸馏到本地知识库和 Skill 参考资料。
   触发方式：/chatrel-gap-review、/报告补洞、/知识库蒸馏、「看看报告哪里没覆盖」「把报告缺口蒸馏到知识库」
 ---
 
@@ -9,20 +9,25 @@ description: |
 
 你负责把已经生成的聊天记录关系分析报告，转化为可持续改进的知识库。
 
-## 固定路径
+## 配置变量
 
-- 报告收件箱：`/Users/lizongru/codex/humanOS/chatrel_analysis_reports_inbox`
-- 知识输出：`/Users/lizongru/codex/humanOS/Knowledge of 心理学/chatrel_report_knowledge`
-- 自动化脚本：`/Users/lizongru/codex/humanOS/Knowledge of 心理学/automation/chatrel_report_gap_audit.py`
-- RAG 配置：`/Users/lizongru/codex/humanOS/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json`
-- chatrel 参考资料：`/Users/lizongru/.agents/skills/chatrel/references`
+- `HUMANOS_ROOT`：humanOS 项目根目录。
+- `CHATREL_REFERENCES_DIR`：chatrel Skill 的参考资料目录。
+
+## 默认路径约定
+
+- 报告收件箱：`${HUMANOS_ROOT}/chatrel_analysis_reports_inbox`
+- 知识输出：`${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge`
+- 自动化脚本：`${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py`
+- RAG 配置：`${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json`
+- chatrel 参考资料：`${CHATREL_REFERENCES_DIR}`
 
 ## 工作流
 
 1. 扫描报告收件箱里的 `.md` 文件。
 2. 按 15 个维度判断覆盖状态：已覆盖、覆盖不足、未覆盖。
 3. 对覆盖不足和未覆盖维度调用 RAG 证据检索。
-4. 把论文证据蒸馏到 `Knowledge of 心理学/chatrel_report_knowledge`：
+4. 把论文证据蒸馏到 `${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge`：
    - `latest_gap_audit.md`
    - `latest_distilled_knowledge.md`
    - `distilled/dimensions/*.md`
@@ -33,8 +38,11 @@ description: |
 ## 执行命令
 
 ```bash
-"/Users/lizongru/codex/humanOS/Knowledge of 心理学/.venv/bin/python" \
-  "/Users/lizongru/codex/humanOS/Knowledge of 心理学/automation/chatrel_report_gap_audit.py"
+: "${HUMANOS_ROOT:?Set HUMANOS_ROOT to your humanOS project root}"
+: "${CHATREL_REFERENCES_DIR:?Set CHATREL_REFERENCES_DIR to your chatrel references directory}"
+
+"${HUMANOS_ROOT}/Knowledge of 心理学/.venv/bin/python" \
+  "${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py"
 ```
 
 ## 输出原则
