@@ -21,6 +21,11 @@ description: |
 - 自动化脚本：`${HUMANOS_ROOT}/Knowledge of 心理学/automation/chatrel_report_gap_audit.py`
 - RAG 配置：`${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation_dimensions.json`
 - chatrel 参考资料：`${CHATREL_REFERENCES_DIR}`
+- 随包公开知识库：`references/chatrel_report_knowledge`
+
+## 随包知识库
+
+`references/chatrel_report_knowledge` 包含脱敏后的维度规则、输出字段、覆盖审计快照和论文引用。使用这个目录作为默认参考资料；本地运行产生的新审计结果仍输出到 `${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge`。
 
 ## 工作流
 
