@@ -1,0 +1,3355 @@
+[
+  {
+    "slug": "2001_depressed_adolescents_of_depressed_and_nondepressed_mothers_tests_of_an_interper_10_1037_0022_006x_69_2_284",
+    "id": "https://openalex.org/W2108636671",
+    "doi": "https://doi.org/10.1037/0022-006x.69.2.284",
+    "title": "Depressed adolescents of depressed and nondepressed mothers: Tests of an Interpersonal Impairment Hypothesis.",
+    "year": 2001,
+    "type": "article",
+    "cited_by_count": 216,
+    "domains": [
+      "family_parent_child",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "reference_of:W7153224466"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 12,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 12,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal"
+      ]
+    }
+  },
+  {
+    "slug": "2006_stress_generation_in_depression_reflections_on_origins_research_and_future_direc_10_1002_jclp_20293",
+    "id": "https://openalex.org/W1968791579",
+    "doi": "https://doi.org/10.1002/jclp.20293",
+    "title": "Stress generation in depression: Reflections on origins, research, and future directions",
+    "year": 2006,
+    "type": "review",
+    "cited_by_count": 660,
+    "domains": [
+      "family_parent_child",
+      "clinical_therapy",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "reference_of:W7153224466"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 10,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 15,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2007_parent_infant_synchrony_10_1111_j_1467_8721_2007_00532_x",
+    "id": "https://openalex.org/W2039998381",
+    "doi": "https://doi.org/10.1111/j.1467-8721.2007.00532.x",
+    "title": "Parent–Infant Synchrony",
+    "year": 2007,
+    "type": "article",
+    "cited_by_count": 622,
+    "domains": [
+      "family_parent_child",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "social_support"
+    ],
+    "source_queries": [
+      "reference_of:W7153224466"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 21,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal",
+        "relationship",
+        "empathy",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2010_the_origins_of_12_month_attachment_a_microanalysis_of_4_month_mother_infant_inte_10_1080_14616730903338985",
+    "id": "https://openalex.org/W2103833506",
+    "doi": "https://doi.org/10.1080/14616730903338985",
+    "title": "The origins of 12-month attachment: A microanalysis of 4-month mother–infant interaction",
+    "year": 2010,
+    "type": "article",
+    "cited_by_count": 641,
+    "domains": [
+      "romantic_partner",
+      "family_parent_child",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "social_support",
+      "conflict_rupture"
+    ],
+    "source_queries": [
+      "reference_of:W7153224466"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 20,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3763737",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 16,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "conflict_repair"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "interpersonal",
+        "conflict"
+      ]
+    }
+  },
+  {
+    "slug": "2017_the_impact_of_parenting_on_emotion_regulation_during_childhood_and_adolescence_10_1111_cdep_12238",
+    "id": "https://openalex.org/W2623360428",
+    "doi": "https://doi.org/10.1111/cdep.12238",
+    "title": "The Impact of Parenting on Emotion Regulation During Childhood and Adolescence",
+    "year": 2017,
+    "type": "article",
+    "cited_by_count": 768,
+    "domains": [
+      "family_parent_child",
+      "clinical_therapy",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "reference_of:W7141205571"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 6,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 14,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2020_longitudinal_association_between_emotion_related_parenting_behavior_and_child_ag_10_1002_ab_21945",
+    "id": "https://openalex.org/W3115650700",
+    "doi": "https://doi.org/10.1002/ab.21945",
+    "title": "Longitudinal association between emotion‐related parenting behavior and child aggression: The moderating role of parent‐child physiological synchrony",
+    "year": 2020,
+    "type": "article",
+    "cited_by_count": 17,
+    "domains": [
+      "family_parent_child",
+      "clinical_therapy",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "reference_of:W7153224466"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 11,
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 22,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "synchrony",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2023_the_functioning_of_offspring_of_depressed_parents_current_status_unresolved_issu_10_1146_annurev_devpsych_120621",
+    "id": "https://openalex.org/W4383498808",
+    "doi": "https://doi.org/10.1146/annurev-devpsych-120621-043144",
+    "title": "The Functioning of Offspring of Depressed Parents: Current Status, Unresolved Issues, and Future Directions",
+    "year": 2023,
+    "type": "article",
+    "cited_by_count": 10,
+    "domains": [
+      "family_parent_child",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "reference_of:W7153224466"
+    ],
+    "seed_kinds": [
+      "reference_depth_1"
+    ],
+    "score": 10,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-devpsych-120621-043144",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-devpsych-120621-043144",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 16,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2025_design_framework_for_conversational_agent_in_couple_relationships_a_systematic_r_10_48550_arxiv_2510_17119",
+    "id": "https://openalex.org/W4415961874",
+    "doi": "https://doi.org/10.48550/arxiv.2510.17119",
+    "title": "Design Framework for Conversational Agent in Couple relationships: A Systematic Review",
+    "year": 2025,
+    "type": "preprint",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "friend_peer",
+      "clinical_therapy",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "social_support"
+    ],
+    "source_queries": [
+      "rapport detection dialogue dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 26,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2510.17119",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2510.17119",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 21,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "alliance"
+      ]
+    }
+  },
+  {
+    "slug": "2025_longitudinal_intergenerational_hyperscanning_indexes_changes_in_social_connectio_10_1101_2025_10_14_682029",
+    "id": "https://openalex.org/W4415223268",
+    "doi": "https://doi.org/10.1101/2025.10.14.682029",
+    "title": "Longitudinal intergenerational hyperscanning indexes changes in social connection",
+    "year": 2025,
+    "type": "preprint",
+    "cited_by_count": 2,
+    "domains": [
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "rapport_alliance_trust"
+    ],
+    "source_queries": [
+      "psychotherapy alliance language synchrony conversation"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/15/2025.10.14.682029.full.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/15/2025.10.14.682029.full.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 15,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2025_naturalturn_a_method_to_segment_speech_into_psychologically_meaningful_conversat_10_1038_s41598_025_24381_1",
+    "id": "https://openalex.org/W4415994229",
+    "doi": "https://doi.org/10.1038/s41598-025-24381-1",
+    "title": "NaturalTurn: a method to segment speech into psychologically meaningful conversational turns",
+    "year": 2025,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect"
+    ],
+    "source_queries": [
+      "rapport detection dialogue dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 25,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41598-025-24381-1.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://www.nature.com/articles/s41598-025-24381-1.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 30,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "response_dynamics",
+        "lexical_alignment",
+        "emotion_affect"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation",
+        "turn-taking",
+        "backchannel",
+        "listener",
+        "linguistic alignment"
+      ],
+      "relation_terms": [
+        "relationship",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "slug": "2025_social_context_matters_for_turn_taking_dynamics_a_comparative_study_of_autistic__10_1111_cogs_70124",
+    "id": "https://openalex.org/W4415132101",
+    "doi": "https://doi.org/10.1111/cogs.70124",
+    "title": "Social Context Matters for Turn‐Taking Dynamics: A Comparative Study of Autistic and Typically Developing Children",
+    "year": 2025,
+    "type": "article",
+    "cited_by_count": 1,
+    "domains": [
+      "family_parent_child"
+    ],
+    "signals": [
+      "synchrony_coordination"
+    ],
+    "source_queries": [
+      "rapport detection dialogue dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.70124",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.70124",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 13,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "response_dynamics"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation",
+        "turn-taking"
+      ],
+      "relation_terms": [
+        "interpersonal"
+      ]
+    }
+  },
+  {
+    "slug": "2025_the_power_of_communication_and_listening_in_healing_beyond_medication_in_clinica_10_54536_ajhp_v3i1_5733",
+    "id": "https://openalex.org/W4416495425",
+    "doi": "https://doi.org/10.54536/ajhp.v3i1.5733",
+    "title": "The Power of Communication and Listening in Healing: Beyond Medication in Clinical Practice",
+    "year": 2025,
+    "type": "article",
+    "cited_by_count": 1,
+    "domains": [
+      "clinical_therapy",
+      "medical",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "psychotherapy alliance language synchrony conversation"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 24,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://journals.e-palli.com/home/index.php/ajhp/article/download/5733/2838",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://journals.e-palli.com/home/index.php/ajhp/article/download/5733/2838",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 34,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "rapport_trust",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [
+        "dialogue"
+      ],
+      "relation_terms": [
+        "alliance",
+        "empathy",
+        "synchrony",
+        "satisfaction",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_a_micro_analytic_investigation_of_managing_revoicing_when_delivering_dispreferre_10_1111_ijal_70113",
+    "id": "https://openalex.org/W7124679904",
+    "doi": "https://doi.org/10.1111/ijal.70113",
+    "title": "A Micro‐Analytic Investigation of Managing “Revoicing” When Delivering Dispreferred Evaluative Peer Feedback During Microteaching Post‐Observation Conferences",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "education",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "social_support"
+    ],
+    "source_queries": [
+      "workplace dyadic communication supervisor subordinate language"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijal.70113",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ijal.70113",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 13,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "social_support"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship"
+      ]
+    }
+  },
+  {
+    "slug": "2026_a_randomized_factorial_experiment_to_optimize_the_design_of_a_culturally_tailore_10_3389_fdgth_2026_1720531",
+    "id": "https://openalex.org/W7155167472",
+    "doi": "https://doi.org/10.3389/fdgth.2026.1720531",
+    "title": "A randomized factorial experiment to optimize the design of a culturally tailored breast cancer screening outreach chatbot intervention",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "clinical_therapy",
+      "medical",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "empathic accuracy text message conversation",
+      "physician patient online messages communication relationship"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 8,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1720531/pdf",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1720531/pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 19,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "trust"
+      ]
+    }
+  },
+  {
+    "slug": "2026_acoustic_and_facial_markers_of_perceived_conversational_success_in_spontaneous_s_w7155246601",
+    "id": "https://openalex.org/W7155246601",
+    "doi": null,
+    "title": "Acoustic and Facial Markers of Perceived Conversational Success in Spontaneous Speech",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "synchrony_coordination",
+      "rapport_alliance_trust"
+    ],
+    "source_queries": [
+      "emotional synchrony conversation dyadic relationship",
+      "rapport detection dialogue dyadic relationship",
+      "stranger dyadic interaction language rapport"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 27,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.15322",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.15322",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 22,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "response_dynamics",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation",
+        "turn-taking"
+      ],
+      "relation_terms": [
+        "dyadic",
+        "rapport"
+      ]
+    }
+  },
+  {
+    "slug": "2026_aligning_backchannel_and_dialogue_context_representations_via_contrastive_llm_fi_w7155246845",
+    "id": "https://openalex.org/W7155246845",
+    "doi": null,
+    "title": "Aligning Backchannel and Dialogue Context Representations via Contrastive LLM Fine-Tuning",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination"
+    ],
+    "source_queries": [
+      "computational social science dyadic conversation relationship",
+      "dyadic relationship conversation analysis psychology",
+      "linguistic style matching dyadic conversation relationship",
+      "natural language processing dyadic interaction relationship",
+      "rapport detection dialogue dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.16622",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.16622",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 24,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "response_dynamics"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation",
+        "backchannel"
+      ],
+      "relation_terms": [
+        "relationship",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "slug": "2026_artificial_intelligence_in_psychotherapy_opportunities_risks_and_implications_fo_10_20944_preprints202604_1243_v1",
+    "id": "https://openalex.org/W7154899348",
+    "doi": "https://doi.org/10.20944/preprints202604.1243.v1",
+    "title": "Artificial Intelligence in Psychotherapy: Opportunities, Risks, and Implications for Mental Health Care — A Literature Review",
+    "year": 2026,
+    "type": "preprint",
+    "cited_by_count": 0,
+    "domains": [
+      "clinical_therapy",
+      "medical",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "rapport_alliance_trust",
+      "social_support"
+    ],
+    "source_queries": [
+      "chatbot interpersonal relationship communication psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 24,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.preprints.org/frontend/manuscript/283b8b675970839448b6eb187541b3da/download_pub",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://www.preprints.org/frontend/manuscript/283b8b675970839448b6eb187541b3da/download_pub",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 21,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "social_support",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "alliance"
+      ]
+    }
+  },
+  {
+    "slug": "2026_becoming_the_example_advice_from_african_american_couples_who_abstained_until_ma_10_3390_famsci2010007",
+    "id": "https://openalex.org/W7128586635",
+    "doi": "https://doi.org/10.3390/famsci2010007",
+    "title": "Becoming the Example: Advice from African American Couples Who Abstained Until Marriage",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "friend_peer",
+      "family_parent_child",
+      "clinical_therapy",
+      "education",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "dyadic relationship chat logs psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://www.mdpi.com/3042-6693/2/1/7/pdf?version=1770783973",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://www.mdpi.com/3042-6693/2/1/7/pdf?version=1770783973",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 24,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "relationship",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_breakdowns_in_conversational_ai_interactional_failures_in_emotionally_and_ethica_w7151672944",
+    "id": "https://openalex.org/W7151672944",
+    "doi": null,
+    "title": "Breakdowns in Conversational AI: Interactional Failures in Emotionally and Ethically Sensitive Contexts",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect"
+    ],
+    "source_queries": [
+      "therapist client conversation natural language processing relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.02713",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://arxiv.org/pdf/2604.02713",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 25,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "empathy",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "slug": "2026_cardiac_synchrony_during_collaborative_drawing_a_longitudinal_comparison_of_same_10_1111_nyas_70272",
+    "id": "https://openalex.org/W7151338294",
+    "doi": "https://doi.org/10.1111/nyas.70272",
+    "title": "Cardiac Synchrony During Collaborative Drawing: A Longitudinal Comparison of Same Generation and Intergenerational Dyads",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "rapport_alliance_trust"
+    ],
+    "source_queries": [
+      "computational social science dyadic conversation relationship",
+      "emotional synchrony conversation dyadic relationship",
+      "empathy detection conversation dyadic psychology",
+      "interpersonal synchrony language dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1111/nyas.70272",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 21,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "interpersonal",
+        "relationship",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2026_communication_modality_and_communication_satisfaction_in_relationships_w7152336232",
+    "id": "https://openalex.org/W7152336232",
+    "doi": null,
+    "title": "Communication Modality and Communication Satisfaction in Relationships",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "friend_peer",
+      "clinical_therapy",
+      "medical",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "social_support"
+    ],
+    "source_queries": [
+      "communication accommodation computer mediated communication dyads",
+      "romantic relationship texting communication satisfaction language"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 23,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9166&context=doctoral",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://digitalcommons.liberty.edu/cgi/viewcontent.cgi?article=9166&context=doctoral",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 18,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "satisfaction"
+      ]
+    }
+  },
+  {
+    "slug": "2026_compass_towards_personalized_agentic_social_support_via_tool_augmented_companion_w7155247344",
+    "id": "https://openalex.org/W7155247344",
+    "doi": null,
+    "title": "ComPASS: Towards Personalized Agentic Social Support via Tool-Augmented Companionship",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "chatbot interpersonal relationship communication psychology",
+      "interpersonal relationship profiling conversation language",
+      "language style matching digital communication relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 30,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.18356",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "already_downloaded",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 22,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "social support",
+        "empathy",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_contextual_justice_citizens_dialogues_on_ai_judges_in_japan_10_1007_s43681_026_01110_6",
+    "id": "https://openalex.org/W7155160969",
+    "doi": "https://doi.org/10.1007/s43681-026-01110-6",
+    "title": "Contextual justice: citizens’ dialogues on AI judges in Japan",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "human agent dialogue social relationship psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 28,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s43681-026-01110-6.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "already_downloaded",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 17,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue"
+      ],
+      "relation_terms": [
+        "interpersonal",
+        "trust",
+        "empathy"
+      ]
+    }
+  },
+  {
+    "slug": "2026_conversationalign_open_source_software_for_analyzing_patterns_of_lexical_use_and_10_3758_s13428_026_02954_w",
+    "id": "https://openalex.org/W7130714052",
+    "doi": "https://doi.org/10.3758/s13428-026-02954-w",
+    "title": "ConversationAlign: Open-source software for analyzing patterns of lexical use and alignment in conversation transcripts",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "linguistic style matching dyadic conversation relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.3758/s13428-026-02954-w.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://link.springer.com/content/pdf/10.3758/s13428-026-02954-w.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 27,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "lexical_alignment",
+        "emotion_affect",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation transcript",
+        "conversation",
+        "linguistic alignment"
+      ],
+      "relation_terms": [
+        "relationship",
+        "alignment",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2026_designing_a_generative_ai_assisted_music_psychotherapy_tool_for_deaf_and_hard_of_10_1145_3772318_3791385",
+    "id": "https://openalex.org/W7154104458",
+    "doi": "https://doi.org/10.1145/3772318.3791385",
+    "title": "Designing a Generative AI-Assisted Music Psychotherapy Tool for Deaf and Hard-of-Hearing Individuals",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 1,
+    "domains": [
+      "clinical_therapy",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "Synchrony in Psychotherapy therapeutic alliance review"
+    ],
+    "seed_kinds": [
+      "core_seed"
+    ],
+    "score": 25,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3772318.3791385",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 19,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "empathy",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_designing_a_generative_ai_assisted_music_psychotherapy_tool_for_deaf_and_hard_of_w7134860285",
+    "id": "https://openalex.org/W7134860285",
+    "doi": null,
+    "title": "Designing a Generative AI-Assisted Music Psychotherapy Tool for Deaf and Hard-of-Hearing Individuals",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "clinical_therapy",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "psychotherapy alliance language synchrony conversation"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 27,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2603.07963",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2603.07963",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 22,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "empathy",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_dialogue_agents_that_share_family_information_to_strengthen_grandparent_grandchi_w7154656051",
+    "id": "https://openalex.org/W7154656051",
+    "doi": null,
+    "title": "Dialogue Agents that Share Family Information to Strengthen Grandparent-Grandchild Relationships",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "social_support",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "chatbot interpersonal relationship communication psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 26,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.12310",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.12310",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 27,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship"
+      ]
+    }
+  },
+  {
+    "slug": "2026_dyadic_emotional_dialogue_among_early_childhood_educators_exploring_an_understud_10_20944_preprints202602_0838_v1",
+    "id": "https://openalex.org/W7128605381",
+    "doi": "https://doi.org/10.20944/preprints202602.0838.v1",
+    "title": "Dyadic Emotional Dialogue Among Early Childhood Educators: Exploring an Understudied Aspect of Educational Climate",
+    "year": 2026,
+    "type": "preprint",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "education",
+      "workplace",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "conflict_rupture"
+    ],
+    "source_queries": [
+      "workplace dyadic communication supervisor subordinate language"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 30,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.preprints.org/frontend/manuscript/31852d4b4501f3f311e528d047ef99b7/download_pub",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://www.preprints.org/frontend/manuscript/31852d4b4501f3f311e528d047ef99b7/download_pub",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 24,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "rapport_trust",
+        "conflict_repair"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "dyadic",
+        "interpersonal",
+        "empathy",
+        "satisfaction"
+      ]
+    }
+  },
+  {
+    "slug": "2026_dynamic_personality_adaptation_in_large_language_models_via_state_machines_w7131731847",
+    "id": "https://openalex.org/W7131731847",
+    "doi": null,
+    "title": "Dynamic Personality Adaptation in Large Language Models via State Machines",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "medical",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "synchrony_coordination",
+      "social_support"
+    ],
+    "source_queries": [
+      "empathy detection conversation dyadic psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 24,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2602.22157",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2602.22157",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 29,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "social_support"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "interpersonal",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "slug": "2026_effects_of_framing_and_identity_cues_in_science_communication_with_and_about_ai_10_17645_mac_11350",
+    "id": "https://openalex.org/W7154906010",
+    "doi": "https://doi.org/10.17645/mac.11350",
+    "title": "Effects of Framing and Identity Cues in Science Communication With and About AI",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "rapport_alliance_trust"
+    ],
+    "source_queries": [
+      "doctor patient secure messaging communication relationship",
+      "empathic accuracy text message conversation"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 18,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.cogitatiopress.com/mediaandcommunication/article/download/11350/5053",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://www.cogitatiopress.com/mediaandcommunication/article/download/11350/5053",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 15,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "trust"
+      ]
+    }
+  },
+  {
+    "slug": "2026_ella_generative_ai_powered_social_robots_for_early_language_development_at_home_w7138824891",
+    "id": "https://openalex.org/W7138824891",
+    "doi": null,
+    "title": "ELLA: Generative AI-Powered Social Robots for Early Language Development at Home",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "empathy detection conversation dyadic psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2603.12508",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2603.12508",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 20,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_enabling_sensitive_conversations_with_consent_boundaries_moa_a_platform_for_disc_w7155246754",
+    "id": "https://openalex.org/W7155246754",
+    "doi": null,
+    "title": "Enabling Sensitive Conversations with Consent Boundaries: Moa, a Platform for Discussing PhD Advising Relationships",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "education",
+      "workplace",
+      "service_user"
+    ],
+    "signals": [
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "computational social science dyadic conversation relationship",
+      "doctor patient communication text conversation relationship",
+      "dyadic relationship chat logs psychology",
+      "dyadic relationship conversation analysis psychology",
+      "friendship text messaging relationship communication psychology",
+      "interpersonal relationship profiling conversation language",
+      "natural language processing dyadic interaction relationship",
+      "social support text messages dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 23,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.18121",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.18121",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 16,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_experiences_of_service_users_receiving_peer_support_in_mental_health_services_qu_10_1017_gmh_2026_10203",
+    "id": "https://openalex.org/W7154706922",
+    "doi": "https://doi.org/10.1017/gmh.2026.10203",
+    "title": "Experiences of service users receiving peer support in mental health services: Qualitative findings from the international UPSIDES Trial",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "family_parent_child",
+      "clinical_therapy",
+      "medical",
+      "service_user",
+      "negotiation_interview"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "WhatsApp interpersonal communication relationship psychology"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 15,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1CCE8CC96043D98DF58C5CEAE68A86A5/S2054425126102039a.pdf/div-class-title-experiences-of-service-users-receiving-peer-support-in-mental-health-services-qualitative-findings-from-the-international-upsides-trial-div.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1CCE8CC96043D98DF58C5CEAE68A86A5/S2054425126102039a.pdf/div-class-title-experiences-of-service-users-receiving-peer-support-in-mental-health-services-qualitative-findings-from-the-international-upsides-trial-div.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 24,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "social_support",
+        "power_role",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal",
+        "reciprocity",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_facilitating_co_regulation_an_llm_powered_multimodal_social_robot_for_parent_chi_10_1145_3776734_3794485",
+    "id": "https://openalex.org/W7135151768",
+    "doi": "https://doi.org/10.1145/3776734.3794485",
+    "title": "Facilitating Co-regulation: An LLM-Powered Multimodal Social Robot for Parent-Child Dyads",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "dyadic relationship chat logs psychology",
+      "empathy detection conversation dyadic psychology",
+      "rapport detection dialogue dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://research.tue.nl/files/383822493/3776734.3794485.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://research.tue.nl/files/383822493/3776734.3794485.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 23,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "trust",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "2026_from_imperial_examination_to_digital_soloing_why_generation_z_resist_mandatory_c_10_3389_fpsyg_2026_1800462",
+    "id": "https://openalex.org/W7152641643",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1800462",
+    "title": "From imperial examination to digital soloing: why Generation Z resist mandatory cooperation in Chinese higher education",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "family_parent_child",
+      "education",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "rapport_alliance_trust",
+      "conflict_rupture"
+    ],
+    "source_queries": [
+      "WeChat interpersonal relationship communication psychology"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 19,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1800462/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1800462/pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 39,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "rapport_trust",
+        "conflict_repair"
+      ],
+      "direct_chat_terms": [
+        "chat",
+        "wechat",
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "trust",
+        "conflict"
+      ]
+    }
+  },
+  {
+    "slug": "2026_group_communication_in_work_related_instant_messaging_im_request_strategies_amon_10_17576_3l_2026_3201_20",
+    "id": "https://openalex.org/W7138419114",
+    "doi": "https://doi.org/10.17576/3l-2026-3201-20",
+    "title": "Group Communication in Work-related Instant Messaging (IM): Request Strategies Among Adult Malay Speakers of English",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "medical",
+      "workplace",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect"
+    ],
+    "source_queries": [
+      "linguistic accommodation instant messaging"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 18,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "http://ejournal.ukm.my/3l/article/download/86505/18526",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "http://ejournal.ukm.my/3l/article/download/86505/18526",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 19,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [],
+      "direct_chat_terms": [
+        "text message",
+        "instant messaging"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "relationship"
+      ]
+    }
+  },
+  {
+    "slug": "2026_groupenvoy_a_conversational_agent_speaking_for_the_outgroup_to_foster_intergroup_w7155246707",
+    "id": "https://openalex.org/W7155246707",
+    "doi": null,
+    "title": "GroupEnvoy: A Conversational Agent Speaking for the Outgroup to Foster Intergroup Relations",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "education",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "chatbot interpersonal relationship communication psychology",
+      "friendship text messaging relationship communication psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 27,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.16095",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.16095",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 14,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "empathy"
+      ]
+    }
+  },
+  {
+    "slug": "2026_heart_rate_synchrony_in_minimal_social_interactions_in_relation_to_mimicry_10_1098_rsos_251436",
+    "id": "https://openalex.org/W7135035807",
+    "doi": "https://doi.org/10.1098/rsos.251436",
+    "title": "Heart rate synchrony in minimal social interactions in relation to mimicry",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "synchrony_coordination",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "emotional synchrony conversation dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://royalsocietypublishing.org/rsos/article-pdf/doi/10.1098/rsos.251436/6123281/rsos.251436.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://royalsocietypublishing.org/rsos/article-pdf/doi/10.1098/rsos.251436/6123281/rsos.251436.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 21,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "interpersonal",
+        "alignment",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2026_how_reciprocity_cohesion_and_communication_climate_drive_information_sharing_in__10_1057_s41599_026_06947_0",
+    "id": "https://openalex.org/W7135168658",
+    "doi": "https://doi.org/10.1057/s41599-026-06947-0",
+    "title": "How reciprocity, cohesion, and communication climate drive information sharing in WeChat-based e-commerce communities",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "workplace",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "chat messages relationship quality dyadic"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41599-026-06947-0_reference.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://www.nature.com/articles/s41599-026-06947-0_reference.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 32,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "social_support",
+        "rapport_trust",
+        "power_role",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [
+        "chat",
+        "wechat"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "relationship",
+        "trust",
+        "reciprocity",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_in_sync_through_laughter_an_fnirs_hyperscanning_study_on_neural_synchrony_and_so_10_3389_fnins_2025_1697100",
+    "id": "https://openalex.org/W7124931388",
+    "doi": "https://doi.org/10.3389/fnins.2025.1697100",
+    "title": "In sync through laughter? An fNIRS hyperscanning study on neural synchrony and social connection",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "social_support"
+    ],
+    "source_queries": [
+      "stranger dyadic interaction language rapport"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 28,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2025.1697100/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "already_downloaded",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 27,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "interpersonal",
+        "relationship",
+        "alignment",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2026_integrating_neural_physiological_and_interoceptive_measures_in_social_interactio_10_3389_fnins_2026_1771470",
+    "id": "https://openalex.org/W7131092082",
+    "doi": "https://doi.org/10.3389/fnins.2026.1771470",
+    "title": "Integrating neural, physiological, and interoceptive measures in social interaction",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "social_support"
+    ],
+    "source_queries": [
+      "emotional synchrony conversation dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 25,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1771470/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1771470/pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 19,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "rapport",
+        "alignment",
+        "synchrony"
+      ]
+    }
+  },
+  {
+    "slug": "2026_intimacy_as_service_harm_as_externality_critical_perspectives_on_ai_companion_pl_w7153671317",
+    "id": "https://openalex.org/W7153671317",
+    "doi": null,
+    "title": "Intimacy as Service, Harm as Externality: Critical Perspectives on AI Companion Platform Accountability",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "negotiation dyad conversation language relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.06381",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.06381",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 19,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "intimacy"
+      ]
+    }
+  },
+  {
+    "slug": "2026_linguistic_accommodation_between_neurodivergent_communities_on_reddit_a_communic_w7154539415",
+    "id": "https://openalex.org/W7154539415",
+    "doi": null,
+    "title": "Linguistic Accommodation Between Neurodivergent Communities on Reddit:A Communication Accommodation Theory Analysis of ADHD and Autism Groups",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "language_style_matching",
+      "accommodation_adaptation",
+      "social_support"
+    ],
+    "source_queries": [
+      "The Development and Psychometric Properties of LIWC2015"
+    ],
+    "seed_kinds": [
+      "core_seed"
+    ],
+    "score": 15,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.10063",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.10063",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 14,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "lexical_alignment"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "accommodation"
+      ]
+    }
+  },
+  {
+    "slug": "2026_management_control_and_mental_health_implications_for_psychological_safety_and_e_w7155023308",
+    "id": "https://openalex.org/W7155023308",
+    "doi": null,
+    "title": "Management Control and Mental Health: Implications for Psychological Safety and Employee Stress",
+    "year": 2026,
+    "type": "dissertation",
+    "cited_by_count": 0,
+    "domains": [
+      "medical",
+      "workplace",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "workplace dyadic communication supervisor subordinate language"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://pure.au.dk/ws/files/457556368/Phd_AMJ_print_version.pdf",
+      "any_repository_has_fulltext": null
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://pure.au.dk/ws/files/457556368/Phd_AMJ_print_version.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 23,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust",
+        "power_role"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue"
+      ],
+      "relation_terms": [
+        "interpersonal",
+        "relationship",
+        "alignment",
+        "satisfaction",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_negative_evaluation_fear_and_sharing_avoidance_on_wechat_moments_exhaustion_and__10_3389_fpsyg_2026_1793555",
+    "id": "https://openalex.org/W7152479562",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1793555",
+    "title": "Negative evaluation fear and sharing avoidance on WeChat Moments: exhaustion and face",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "workplace",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "social_support",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "WeChat interpersonal relationship communication psychology"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 25,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1793555/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1793555/pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 28,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [
+        "chat",
+        "wechat",
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal"
+      ]
+    }
+  },
+  {
+    "slug": "2026_no_universal_courtesy_a_cross_linguistic_multi_model_study_of_politeness_effects_w7155246956",
+    "id": "https://openalex.org/W7155246956",
+    "doi": null,
+    "title": "No Universal Courtesy: A Cross-Linguistic, Multi-Model Study of Politeness Effects on LLMs Using the PLUM Corpus",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "social_support"
+    ],
+    "source_queries": [
+      "customer service chat relationship communication"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.16275",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.16275",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 20,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [
+        "dialogue"
+      ],
+      "relation_terms": [
+        "politeness"
+      ]
+    }
+  },
+  {
+    "slug": "2026_personamail_learning_and_adapting_personal_communication_preferences_for_context_10_1145_3742413_3789123",
+    "id": "https://openalex.org/W7130741418",
+    "doi": "https://doi.org/10.1145/3742413.3789123",
+    "title": "PersonaMail: Learning and Adapting Personal Communication Preferences for Context-Aware Email Writing",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 2,
+    "domains": [
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "synchrony_coordination",
+      "rapport_alliance_trust",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "Linguistic Style Accommodation Shapes Impression Formation and Rapport in Computer-Mediated Communication"
+    ],
+    "seed_kinds": [
+      "core_seed"
+    ],
+    "score": 15,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1145/3742413.3789123",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 22,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "email"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal",
+        "relationship",
+        "alignment",
+        "satisfaction"
+      ]
+    }
+  },
+  {
+    "slug": "2026_polyslgen_online_multimodal_speaking_listening_reaction_generation_in_polyadic_i_w7153670171",
+    "id": "https://openalex.org/W7153670171",
+    "doi": null,
+    "title": "PolySLGen: Online Multimodal Speaking-Listening Reaction Generation in Polyadic Interaction",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination"
+    ],
+    "source_queries": [
+      "empathy detection conversation dyadic psychology",
+      "linguistic style matching dyadic conversation relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2604.08125",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2604.08125",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 14,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "dyadic",
+        "alignment"
+      ]
+    }
+  },
+  {
+    "slug": "2026_puppetchat_fostering_intimate_communication_through_bidirectional_actions_and_mi_10_1145_3772318_3790685",
+    "id": "https://openalex.org/W7131241164",
+    "doi": "https://doi.org/10.1145/3772318.3790685",
+    "title": "PuppetChat: Fostering Intimate Communication through Bidirectional Actions and Micronarratives",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 1,
+    "domains": [
+      "romantic_partner",
+      "friend_peer",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "social_support"
+    ],
+    "source_queries": [
+      "Interpersonal synchrony review dyadic interaction psychology"
+    ],
+    "seed_kinds": [
+      "core_seed"
+    ],
+    "score": 27,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2602.19463",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2602.19463",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 29,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "social_support",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [
+        "chat",
+        "instant messaging"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "relationship",
+        "reciprocity"
+      ]
+    }
+  },
+  {
+    "slug": "2026_seeing_each_other_matters_visual_contact_enhances_heart_rate_variability_synchro_10_22541_au_177191837_70605191_v",
+    "id": "https://openalex.org/W7131275391",
+    "doi": "https://doi.org/10.22541/au.177191837.70605191/v1",
+    "title": "Seeing Each Other Matters: Visual Contact Enhances Heart Rate Variability Synchrony Between Interaction Partners",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "emotional synchrony conversation dyadic relationship",
+      "empathy detection conversation dyadic psychology",
+      "stranger dyadic interaction language rapport"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 24,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.authorea.com/doi/pdf/10.22541/au.177191837.70605191",
+      "any_repository_has_fulltext": null
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://www.authorea.com/doi/pdf/10.22541/au.177191837.70605191",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 24,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "power_role",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "dyadic",
+        "interpersonal",
+        "synchrony",
+        "power",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_shedding_light_on_mental_health_problems_and_potential_solutions_for_young_women_10_3389_fpsyt_2026_1778227",
+    "id": "https://openalex.org/W7153252140",
+    "doi": "https://doi.org/10.3389/fpsyt.2026.1778227",
+    "title": "Shedding light on mental health problems and potential solutions for young women: results from an anonymous asynchronous online focus group",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "social_support",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "romantic relationship texting communication satisfaction language"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 22,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1778227/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1778227/pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 25,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "interpersonal",
+        "relationship",
+        "trust",
+        "social support",
+        "satisfaction"
+      ]
+    }
+  },
+  {
+    "slug": "2026_talking_together_synthesizing_co_located_3d_conversations_from_audio_w7134860335",
+    "id": "https://openalex.org/W7134860335",
+    "doi": null,
+    "title": "Talking Together: Synthesizing Co-Located 3D Conversations from Audio",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "human_ai_agent"
+    ],
+    "signals": [
+      "power_role_status",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "emotional synchrony conversation dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2603.08674",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2603.08674",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 31,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [
+        "dialogue",
+        "conversation"
+      ],
+      "relation_terms": [
+        "dyadic",
+        "relationship",
+        "power",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_the_ai_amplifier_effect_defining_human_ai_intimacy_and_romantic_relationships_wi_w7134860521",
+    "id": "https://openalex.org/W7134860521",
+    "doi": null,
+    "title": "The AI Amplifier Effect: Defining Human-AI Intimacy and Romantic Relationships with Conversational AI",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust"
+    ],
+    "source_queries": [
+      "chat messages relationship quality dyadic",
+      "dyadic relationship chat logs psychology",
+      "stranger dyadic interaction language rapport"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 23,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2603.08084",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2603.08084",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 20,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "intimacy"
+      ]
+    }
+  },
+  {
+    "slug": "2026_the_effects_of_chatbot_characteristics_on_satisfaction_and_continuance_intention_10_3390_jtaer21040122",
+    "id": "https://openalex.org/W7154737261",
+    "doi": "https://doi.org/10.3390/jtaer21040122",
+    "title": "The Effects of Chatbot Characteristics on Satisfaction and Continuance Intention: The Moderating Role of the Need for Human Interaction",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "workplace",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "computational social science text conversation interpersonal relationship",
+      "empathic accuracy text message conversation",
+      "instant messaging interpersonal relationship psychology",
+      "instant messaging relational communication social support",
+      "self disclosure instant messaging relationship"
+    ],
+    "seed_kinds": [
+      "chat_record_seed"
+    ],
+    "score": 16,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/0718-1876/21/4/122/pdf?version=1776426348",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "download_failed",
+      "url": "https://www.mdpi.com/0718-1876/21/4/122/pdf?version=1776426348",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 23,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "rapport_trust",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "relationship",
+        "satisfaction",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_the_intelligent_silence_architecture_tisa_10_5281_zenodo_19430905",
+    "id": "https://openalex.org/W7150240288",
+    "doi": "https://doi.org/10.5281/zenodo.19430905",
+    "title": "THE INTELLIGENT SILENCE ARCHITECTURE - TISA",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "medical",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "negotiation dyad conversation language relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.5281/zenodo.19430905",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 27,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "response_dynamics",
+        "rapport_trust",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "dyadic",
+        "relationship",
+        "trust",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_the_intelligent_silence_architecture_tisa_10_5281_zenodo_19430906",
+    "id": "https://openalex.org/W7150212272",
+    "doi": "https://doi.org/10.5281/zenodo.19430906",
+    "title": "THE INTELLIGENT SILENCE ARCHITECTURE - TISA",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "friend_peer",
+      "medical",
+      "service_user",
+      "negotiation_interview",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "accommodation_adaptation",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "negotiation dyad conversation language relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.5281/zenodo.19430906",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "no_open_pdf_url",
+      "url": "",
+      "source": ""
+    },
+    "chat_record_info": {
+      "chat_score": 27,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "response_dynamics",
+        "rapport_trust",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "dyadic",
+        "relationship",
+        "trust",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_the_relationship_between_digital_communication_patterns_and_emotional_intimacy_i_10_56975_jaafr_v4i3_505629",
+    "id": "https://openalex.org/W7147099987",
+    "doi": "https://doi.org/10.56975/jaafr.v4i3.505629",
+    "title": "The Relationship Between Digital Communication Patterns and Emotional Intimacy in LongDistance Couples",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "family_parent_child",
+      "workplace",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "social_support"
+    ],
+    "source_queries": [
+      "dyadic relationship chat logs psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 26,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://rjwave.org/jaafr/papers/JAAFR26A3074.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://rjwave.org/jaafr/papers/JAAFR26A3074.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 30,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "chat",
+        "texting"
+      ],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "intimacy"
+      ]
+    }
+  },
+  {
+    "slug": "2026_the_relationship_between_interpersonal_sensitivity_and_short_video_addiction_amo_10_3389_fpsyg_2026_1736377",
+    "id": "https://openalex.org/W7154527668",
+    "doi": "https://doi.org/10.3389/fpsyg.2026.1736377",
+    "title": "The relationship between interpersonal sensitivity and short video addiction among college students: the chain mediation effect of loneliness and fear of missing out",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "education",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "power_role_status"
+    ],
+    "source_queries": [
+      "parent child digital communication relationship text messages"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1736377/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1736377/pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 22,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "power_role"
+      ],
+      "direct_chat_terms": [
+        "sms"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "interpersonal",
+        "relationship",
+        "role"
+      ]
+    }
+  },
+  {
+    "slug": "2026_tied_in_on_tiktok_tie_strength_and_emotional_dynamics_in_algorithmic_communities_w7140954178",
+    "id": "https://openalex.org/W7140954178",
+    "doi": null,
+    "title": "Tied In on TikTok: Tie Strength and Emotional Dynamics in Algorithmic Communities",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "family_parent_child",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "emotion_affect",
+      "social_support",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "empathy detection conversation dyadic psychology"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 27,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2603.22504",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://arxiv.org/pdf/2603.22504",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 14,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "tie_strength"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "conversation"
+      ],
+      "relation_terms": [
+        "relationship",
+        "tie strength"
+      ]
+    }
+  },
+  {
+    "slug": "2026_vividlistener_expressive_and_controllable_listener_dynamics_modeling_for_multi_m_10_1609_aaai_v40i8_37567",
+    "id": "https://openalex.org/W7137892337",
+    "doi": "https://doi.org/10.1609/aaai.v40i8.37567",
+    "title": "VividListener: Expressive and Controllable Listener Dynamics Modeling for Multi-Modal Responsive Interaction",
+    "year": 2026,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "power_role_status",
+      "tie_strength_network"
+    ],
+    "source_queries": [
+      "chat messages relationship quality dyadic",
+      "emotional synchrony conversation dyadic relationship"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://ojs.aaai.org/index.php/AAAI/article/download/37567/41529",
+      "any_repository_has_fulltext": false
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/37567/41529",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 19,
+      "evidence_level": "B_transferable_conversation_evidence",
+      "feature_tags": [
+        "emotion_affect"
+      ],
+      "direct_chat_terms": [],
+      "transcript_terms": [
+        "dialogue",
+        "conversation",
+        "listener"
+      ],
+      "relation_terms": [
+        "dyadic"
+      ]
+    }
+  },
+  {
+    "slug": "2027_the_ethical_and_legal_complexities_of_regulating_companion_ai_chatbots_w7143585285",
+    "id": "https://openalex.org/W7143585285",
+    "doi": null,
+    "title": "The Ethical and Legal Complexities of Regulating Companion AI Chatbots",
+    "year": 2027,
+    "type": "article",
+    "cited_by_count": 0,
+    "domains": [
+      "romantic_partner",
+      "friend_peer",
+      "service_user",
+      "human_ai_agent"
+    ],
+    "signals": [
+      "synchrony_coordination",
+      "emotion_affect",
+      "rapport_alliance_trust",
+      "power_role_status",
+      "social_support"
+    ],
+    "source_queries": [
+      "chatbot interpersonal relationship communication psychology",
+      "interpersonal relationship profiling conversation language"
+    ],
+    "seed_kinds": [
+      "latest_seed"
+    ],
+    "score": 21,
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://lup.lub.lu.se/search/files/244841408/Ethical_and_Legal_complexities_of_regulating_companion_chatbots.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "download": {
+      "status": "downloaded",
+      "url": "https://lup.lub.lu.se/search/files/244841408/Ethical_and_Legal_complexities_of_regulating_companion_chatbots.pdf",
+      "source": "best_oa_location.pdf_url"
+    },
+    "chat_record_info": {
+      "chat_score": 31,
+      "evidence_level": "A_direct_chat_evidence",
+      "feature_tags": [
+        "emotion_affect",
+        "social_support",
+        "rapport_trust"
+      ],
+      "direct_chat_terms": [
+        "chat"
+      ],
+      "transcript_terms": [],
+      "relation_terms": [
+        "relationship",
+        "trust",
+        "self-disclosure",
+        "empathy",
+        "intimacy"
+      ]
+    }
+  }
+]

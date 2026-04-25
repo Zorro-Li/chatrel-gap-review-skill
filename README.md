@@ -81,13 +81,10 @@ distilled/dimensions/*.md
 chatrel-gap-review/
 ├── SKILL.md
 └── references/
-    └── chatrel_report_knowledge/
-        ├── PUBLICATION_NOTES.md
-        ├── README.md
-        ├── latest_gap_audit.md
-        ├── latest_distilled_knowledge.md
-        └── distilled/
-            └── dimensions/*.md
+    ├── README.md
+    ├── chatrel_report_knowledge/
+    ├── foundation_knowledge/
+    └── chat_analysis_pipeline/
 ```
 
 关键文件：
@@ -96,6 +93,9 @@ chatrel-gap-review/
 - `chatrel-gap-review/references/chatrel_report_knowledge/distilled/dimensions/*.md`：按维度拆分的蒸馏知识。
 - `chatrel-gap-review/references/chatrel_report_knowledge/latest_gap_audit.md`：当前审计框架的覆盖快照。
 - `chatrel-gap-review/references/chatrel_report_knowledge/latest_distilled_knowledge.md`：合并后的知识总览。
+- `chatrel-gap-review/references/foundation_knowledge/dyadic_taxonomy.json`：基础知识库的领域和信号分类。
+- `chatrel-gap-review/references/foundation_knowledge/dyadic_papers_manifest.json`：基础知识库的公开论文元数据清单。
+- `chatrel-gap-review/references/chat_analysis_pipeline/`：从聊天分析到关系报告的流程知识、schema、prompt 和脚本。
 
 ## 安装
 
@@ -148,22 +148,21 @@ RAG 配置：${HUMANOS_ROOT}/Knowledge of 心理学/rag_system/config/evaluation
 
 ## 公开知识包
 
-仓库随包发布了一个脱敏后的公开知识包：
+仓库随包发布了三组公开知识包：
 
 ```text
 chatrel-gap-review/references/chatrel_report_knowledge
+chatrel-gap-review/references/foundation_knowledge
+chatrel-gap-review/references/chat_analysis_pipeline
 ```
 
-它包含：
+它们分别提供：
 
-- 维度规则
-- 输出字段
-- 覆盖审计快照
-- 论文标题
-- 证据等级
-- DOI 和参考链接
+- 报告补洞知识：维度规则、输出字段、覆盖审计快照、论文标题、证据等级、DOI 和参考链接。
+- 基础知识库：dyadic taxonomy 和公开论文元数据清单。
+- 分析到报告的方法层：analysis blueprint、chat-specific retrieval overview、RAG config、output schema、prompt、视频脚本。
 
-这个目录可以直接作为默认参考资料使用。本地运行产生的新结果仍然写回你自己的 `humanOS` 工作区。
+这些目录可以直接作为默认参考资料使用。本地运行产生的新结果仍然写回你自己的 `humanOS` 工作区。
 
 ## 边界
 
@@ -185,6 +184,8 @@ chatrel-gap-review/references/chatrel_report_knowledge
 - JSON evidence bundle
 - 私有报告文件名
 - 本机绝对路径
+- SQLite 数据库
+- retrieval chunk stores
 - PDF 文件
 - 长篇原始证据摘录
 

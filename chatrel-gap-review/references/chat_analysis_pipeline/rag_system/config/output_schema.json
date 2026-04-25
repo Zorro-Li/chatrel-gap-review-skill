@@ -1,0 +1,72 @@
+{
+  "version": "2026-04-25",
+  "report_type": "chat_record_relationship_assessment",
+  "top_level_fields": {
+    "conversation_id": "string",
+    "analysis_window": {
+      "start_time": "ISO-8601 string",
+      "end_time": "ISO-8601 string",
+      "message_count": "integer",
+      "speaker_count": "integer"
+    },
+    "data_sufficiency": {
+      "score_0_100": "number",
+      "confidence": "low | medium | high",
+      "limits": [
+        "string"
+      ]
+    },
+    "relationship_type_guess": {
+      "primary": "string",
+      "alternatives": [
+        "string"
+      ],
+      "confidence": "low | medium | high",
+      "evidence": [
+        "evidence_id"
+      ]
+    },
+    "dimension_scores": {
+      "tie_strength": "0-100",
+      "reciprocity_balance": "0-100",
+      "response_dynamics": "0-100",
+      "topic_continuity": "0-100",
+      "lexical_alignment": "0-100",
+      "emotion_affect": "0-100",
+      "social_support": "0-100",
+      "rapport_trust_intimacy": "0-100",
+      "power_role": "0-100 asymmetry score",
+      "conflict_repair": "0-100 repair health score",
+      "modality_media": "descriptive profile",
+      "temporal_trajectory": "improving | stable | cooling | volatile | insufficient_data"
+    },
+    "speaker_asymmetry": {
+      "speaker_a": "string",
+      "speaker_b": "string",
+      "message_share": "object",
+      "initiation_share": "object",
+      "response_latency": "object",
+      "support_given_received": "object",
+      "dominance_markers": "object"
+    },
+    "evidence_used": [
+      {
+        "evidence_id": "string",
+        "dimension": "string",
+        "paper_title": "string",
+        "year": "integer",
+        "doi": "string",
+        "evidence_level": "A | B | C",
+        "chunk_quote_or_summary": "string",
+        "note_path": "string",
+        "pdf_path": "string"
+      }
+    ],
+    "caveats": [
+      "string"
+    ],
+    "next_data_needed": [
+      "string"
+    ]
+  }
+}

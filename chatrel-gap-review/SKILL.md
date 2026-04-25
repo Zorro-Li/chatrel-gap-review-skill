@@ -27,6 +27,8 @@ description: |
 
 `references/chatrel_report_knowledge` 包含脱敏后的维度规则、输出字段、覆盖审计快照和论文引用。使用这个目录作为默认参考资料；本地运行产生的新审计结果仍输出到 `${HUMANOS_ROOT}/Knowledge of 心理学/chatrel_report_knowledge`。
 
+`references/foundation_knowledge` 提供更宽的 dyadic relationship 基础知识库元数据；`references/chat_analysis_pipeline` 提供从聊天分析到关系报告的流程、schema、prompt 和脚本说明。需要补充基础理论或报告方法时，再读这两个目录。
+
 ## 工作流
 
 1. 扫描报告收件箱里的 `.md` 文件。

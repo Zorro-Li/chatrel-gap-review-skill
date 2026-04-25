@@ -1,0 +1,448 @@
+{
+  "relationship_types": {
+    "clinical_therapy": {
+      "zh": "治疗师-来访者 / 心理咨询",
+      "paper_count": 45
+    },
+    "education": {
+      "zh": "师生 / 教育关系",
+      "paper_count": 22
+    },
+    "family_parent_child": {
+      "zh": "家人 / 亲子",
+      "paper_count": 156
+    },
+    "friend_peer": {
+      "zh": "朋友 / 同伴",
+      "paper_count": 36
+    },
+    "human_ai_agent": {
+      "zh": "人机对话 / 关系型代理",
+      "paper_count": 162
+    },
+    "medical": {
+      "zh": "医患 / 医疗沟通",
+      "paper_count": 36
+    },
+    "negotiation_interview": {
+      "zh": "谈判 / 访谈 / 审讯",
+      "paper_count": 29
+    },
+    "romantic_partner": {
+      "zh": "伴侣 / 亲密关系",
+      "paper_count": 41
+    },
+    "service_user": {
+      "zh": "客服-用户 / 服务关系",
+      "paper_count": 109
+    },
+    "stranger_first_meeting": {
+      "zh": "陌生人 / 初次互动",
+      "paper_count": 2
+    },
+    "workplace": {
+      "zh": "上级-下级 / 职场关系",
+      "paper_count": 13
+    }
+  },
+  "model_dimensions": {
+    "accommodation_adaptation": {
+      "zh": "沟通顺应与适应",
+      "claim": "说话方式、词汇选择、礼貌程度和情绪表达的收敛可表示关系中的适应、亲和和社会调节。",
+      "features": [
+        "accommodation",
+        "mimicry",
+        "convergence",
+        "adaptation",
+        "entrainment"
+      ],
+      "paper_count": 17,
+      "top_domains": [
+        [
+          "human_ai_agent",
+          15
+        ],
+        [
+          "service_user",
+          11
+        ],
+        [
+          "family_parent_child",
+          5
+        ],
+        [
+          "negotiation_interview",
+          4
+        ],
+        [
+          "friend_peer",
+          4
+        ],
+        [
+          "romantic_partner",
+          3
+        ],
+        [
+          "medical",
+          3
+        ],
+        [
+          "education",
+          3
+        ]
+      ]
+    },
+    "conflict_rupture": {
+      "zh": "冲突、破裂与修复",
+      "claim": "否定、批评、敌意、回避、破裂和修复表达可表示关系压力和恢复轨迹。",
+      "features": [
+        "conflict",
+        "hostility",
+        "rupture",
+        "repair",
+        "negativity"
+      ],
+      "paper_count": 15,
+      "top_domains": [
+        [
+          "family_parent_child",
+          15
+        ],
+        [
+          "human_ai_agent",
+          8
+        ],
+        [
+          "service_user",
+          5
+        ],
+        [
+          "romantic_partner",
+          3
+        ],
+        [
+          "clinical_therapy",
+          3
+        ],
+        [
+          "medical",
+          2
+        ],
+        [
+          "education",
+          1
+        ],
+        [
+          "workplace",
+          1
+        ]
+      ]
+    },
+    "emotion_affect": {
+      "zh": "情绪与情感动态",
+      "claim": "情绪倾向、情绪传染、共情、支持性回应和情感波动可表示关系状态与互动事件。",
+      "features": [
+        "sentiment",
+        "emotion",
+        "empathy",
+        "valence",
+        "arousal"
+      ],
+      "paper_count": 182,
+      "top_domains": [
+        [
+          "family_parent_child",
+          132
+        ],
+        [
+          "human_ai_agent",
+          103
+        ],
+        [
+          "service_user",
+          71
+        ],
+        [
+          "clinical_therapy",
+          30
+        ],
+        [
+          "romantic_partner",
+          26
+        ],
+        [
+          "friend_peer",
+          26
+        ],
+        [
+          "medical",
+          21
+        ],
+        [
+          "negotiation_interview",
+          15
+        ]
+      ]
+    },
+    "language_style_matching": {
+      "zh": "语言风格匹配",
+      "claim": "功能词、句法风格、词汇复杂度和表达习惯的相似度可作为两人互动协调程度的特征。",
+      "features": [
+        "function words",
+        "lexical alignment",
+        "style matching",
+        "LIWC",
+        "word norms"
+      ],
+      "paper_count": 2,
+      "top_domains": [
+        [
+          "family_parent_child",
+          1
+        ],
+        [
+          "service_user",
+          1
+        ],
+        [
+          "human_ai_agent",
+          1
+        ],
+        [
+          "workplace",
+          1
+        ]
+      ]
+    },
+    "power_role_status": {
+      "zh": "权力、角色与地位",
+      "claim": "指令、提问、打断、缓和语、服从语和主导性表达可表示两人之间的角色不对称。",
+      "features": [
+        "directive",
+        "dominance",
+        "status",
+        "authority",
+        "role"
+      ],
+      "paper_count": 121,
+      "top_domains": [
+        [
+          "family_parent_child",
+          83
+        ],
+        [
+          "human_ai_agent",
+          77
+        ],
+        [
+          "service_user",
+          53
+        ],
+        [
+          "clinical_therapy",
+          23
+        ],
+        [
+          "romantic_partner",
+          20
+        ],
+        [
+          "medical",
+          20
+        ],
+        [
+          "negotiation_interview",
+          17
+        ],
+        [
+          "friend_peer",
+          16
+        ]
+      ]
+    },
+    "rapport_alliance_trust": {
+      "zh": "融洽、联盟与信任",
+      "claim": "融洽、治疗联盟、信任、满意度和亲近感可作为 dyadic relationship 的核心目标变量。",
+      "features": [
+        "rapport",
+        "alliance",
+        "trust",
+        "closeness",
+        "relationship quality"
+      ],
+      "paper_count": 45,
+      "top_domains": [
+        [
+          "human_ai_agent",
+          39
+        ],
+        [
+          "service_user",
+          27
+        ],
+        [
+          "negotiation_interview",
+          17
+        ],
+        [
+          "romantic_partner",
+          16
+        ],
+        [
+          "medical",
+          13
+        ],
+        [
+          "clinical_therapy",
+          12
+        ],
+        [
+          "family_parent_child",
+          11
+        ],
+        [
+          "friend_peer",
+          10
+        ]
+      ]
+    },
+    "social_support": {
+      "zh": "社会支持",
+      "claim": "验证、安慰、建议、自我披露、回应性和实际帮助可表示支持行为和关系资源。",
+      "features": [
+        "support",
+        "validation",
+        "self-disclosure",
+        "responsiveness",
+        "advice"
+      ],
+      "paper_count": 104,
+      "top_domains": [
+        [
+          "service_user",
+          95
+        ],
+        [
+          "human_ai_agent",
+          74
+        ],
+        [
+          "family_parent_child",
+          57
+        ],
+        [
+          "clinical_therapy",
+          24
+        ],
+        [
+          "friend_peer",
+          22
+        ],
+        [
+          "romantic_partner",
+          19
+        ],
+        [
+          "medical",
+          19
+        ],
+        [
+          "education",
+          14
+        ]
+      ]
+    },
+    "synchrony_coordination": {
+      "zh": "同步与协调",
+      "claim": "回复节奏、轮次切换、话题跟随、情绪节律和生理同步可表示互相注意、协作和关系质量。",
+      "features": [
+        "turn taking",
+        "response latency",
+        "temporal coupling",
+        "physiological synchrony",
+        "alignment"
+      ],
+      "paper_count": 68,
+      "top_domains": [
+        [
+          "human_ai_agent",
+          51
+        ],
+        [
+          "family_parent_child",
+          32
+        ],
+        [
+          "service_user",
+          27
+        ],
+        [
+          "romantic_partner",
+          19
+        ],
+        [
+          "clinical_therapy",
+          11
+        ],
+        [
+          "negotiation_interview",
+          6
+        ],
+        [
+          "friend_peer",
+          4
+        ],
+        [
+          "medical",
+          4
+        ]
+      ]
+    },
+    "tie_strength_network": {
+      "zh": "关系强度",
+      "claim": "互动频率、互惠、亲密词、共同话题和网络距离可表示社会关系强弱。",
+      "features": [
+        "tie strength",
+        "reciprocity",
+        "frequency",
+        "intimacy",
+        "network proximity"
+      ],
+      "paper_count": 16,
+      "top_domains": [
+        [
+          "service_user",
+          12
+        ],
+        [
+          "human_ai_agent",
+          11
+        ],
+        [
+          "family_parent_child",
+          7
+        ],
+        [
+          "negotiation_interview",
+          5
+        ],
+        [
+          "friend_peer",
+          4
+        ],
+        [
+          "romantic_partner",
+          2
+        ],
+        [
+          "medical",
+          2
+        ],
+        [
+          "workplace",
+          1
+        ]
+      ]
+    }
+  }
+}

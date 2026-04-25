@@ -1,0 +1,48 @@
+{
+  "version": "2026-04-25",
+  "corpus": {
+    "default_database": "not_included_in_public_package",
+    "default_chunks": "not_included_in_public_package",
+    "paper_count": 61,
+    "chunk_count": 2336,
+    "default_evidence_levels": [
+      "A_direct_chat_evidence",
+      "B_transferable_conversation_evidence"
+    ]
+  },
+  "retrieval_policy": {
+    "default_top_k_per_dimension": 6,
+    "default_evidence_levels": [
+      "A_direct_chat_evidence",
+      "B_transferable_conversation_evidence"
+    ],
+    "include_background_when": [
+      "dimension has fewer than 3 A/B chunks",
+      "user explicitly requests relationship theory",
+      "analysis target is parent-child, therapy, medical, education, or conflict repair with sparse chat-specific evidence"
+    ],
+    "ranking_factors": [
+      "FTS bm25 rank",
+      "evidence level priority A then B then C",
+      "feature tag match",
+      "chunk_score",
+      "paper chat_score",
+      "recency for current digital-communication behavior"
+    ]
+  },
+  "query_rewriting": {
+    "rules": [
+      "Expand Chinese relationship terms into English search terms.",
+      "Add WeChat, text message, instant messaging, CMC, or conversation transcript when the user query mentions chat records.",
+      "Add feature-specific terms from evaluation_dimensions.json.",
+      "Retrieve by dimension first, then merge evidence."
+    ]
+  },
+  "generation_policy": {
+    "answer_from_evidence": true,
+    "cite_evidence_chunks": true,
+    "use_probabilistic_language": true,
+    "avoid_private_motive_diagnosis": true,
+    "downgrade_confidence_when_data_is_sparse": true
+  }
+}

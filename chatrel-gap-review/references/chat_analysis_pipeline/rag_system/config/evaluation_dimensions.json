@@ -1,0 +1,515 @@
+{
+  "version": "2026-04-25",
+  "scope": "WeChat-style dyadic chat-record relationship analysis",
+  "evidence_levels": {
+    "A_direct_chat_evidence": "directly about chat, messaging, CMC, WeChat, email, text, or online dialogue",
+    "B_transferable_conversation_evidence": "conversation transcript or dialogue evidence transferable to chat records",
+    "C_relationship_theory_background": "relationship theory used only when A/B evidence is sparse"
+  },
+  "dimensions": [
+    {
+      "id": "data_sufficiency",
+      "name_zh": "数据充分性",
+      "question": "这份聊天记录是否足够支持关系分析？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "type",
+        "content",
+        "platformMessageId"
+      ],
+      "features": [
+        "message_count",
+        "speaker_count",
+        "time_span_days",
+        "text_message_count",
+        "voice_count",
+        "image_count",
+        "missing_text_ratio"
+      ],
+      "rag_queries": [
+        "chat record data sufficiency",
+        "conversation transcript sample size",
+        "message count relationship analysis"
+      ],
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "sufficiency_score",
+        "coverage",
+        "main_limits",
+        "minimum_next_data_needed"
+      ]
+    },
+    {
+      "id": "relationship_context",
+      "name_zh": "关系类型与场景",
+      "question": "两个人更像哪类关系场景？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "address_terms",
+        "topic_domains",
+        "role_terms",
+        "intimacy_terms",
+        "task_terms"
+      ],
+      "rag_queries": [
+        "relationship type chat conversation",
+        "dyadic relationship conversation context",
+        "interpersonal relationship chat logs"
+      ],
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence",
+        "C_relationship_theory_background"
+      ],
+      "output": [
+        "relationship_type_guess",
+        "confidence",
+        "supporting_markers",
+        "alternative_types"
+      ]
+    },
+    {
+      "id": "tie_strength",
+      "name_zh": "关系强度",
+      "question": "这段关系连接强度如何？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "message_frequency",
+        "initiation_frequency",
+        "reciprocity",
+        "conversation_density",
+        "shared_topic_recurrence"
+      ],
+      "rag_queries": [
+        "微信 关系强度",
+        "tie strength reciprocity frequency",
+        "WeChat communication relationship quality"
+      ],
+      "feature_filter": "tie_strength",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "tie_strength_score",
+        "frequency_evidence",
+        "reciprocity_evidence",
+        "trajectory"
+      ]
+    },
+    {
+      "id": "reciprocity_balance",
+      "name_zh": "互惠与投入平衡",
+      "question": "两个人的互动投入是否平衡？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "message_share_by_speaker",
+        "word_share_by_speaker",
+        "initiation_share",
+        "reply_share",
+        "support_given_vs_received"
+      ],
+      "rag_queries": [
+        "reciprocity interaction balance chat relationship",
+        "dyadic reciprocity communication",
+        "微信 互惠 信息分享"
+      ],
+      "feature_filter": "tie_strength",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "balance_score",
+        "dominant_speaker",
+        "underresponsive_speaker",
+        "asymmetry_notes"
+      ]
+    },
+    {
+      "id": "response_dynamics",
+      "name_zh": "回复节奏与可获得性",
+      "question": "两个人在时间上是否能接住对方？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "platformMessageId"
+      ],
+      "features": [
+        "median_response_latency",
+        "late_reply_rate",
+        "same_day_reply_rate",
+        "silence_gaps",
+        "turn_taking_balance"
+      ],
+      "rag_queries": [
+        "回复速度 轮次",
+        "response latency turn-taking",
+        "NaturalTurn conversational turns"
+      ],
+      "feature_filter": "response_dynamics",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "availability_score",
+        "response_latency_pattern",
+        "silence_pattern",
+        "turn_taking_notes"
+      ]
+    },
+    {
+      "id": "topic_continuity",
+      "name_zh": "话题承接与对话连续性",
+      "question": "两个人是否能延续彼此的话题？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "topic_shift_rate",
+        "follow_up_rate",
+        "question_answer_pairs",
+        "ignored_topic_count",
+        "topic_repair_count"
+      ],
+      "rag_queries": [
+        "conversation continuity topic alignment",
+        "dialogue context backchannel",
+        "chat topic continuity relationship"
+      ],
+      "feature_filter": "response_dynamics",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "continuity_score",
+        "ignored_topics",
+        "follow_up_examples",
+        "topic_shift_pattern"
+      ]
+    },
+    {
+      "id": "lexical_alignment",
+      "name_zh": "语言风格匹配",
+      "question": "两个人的表达方式是否出现靠近或单向适应？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "shared_terms",
+        "function_word_similarity",
+        "emoji_similarity",
+        "sentence_length_similarity",
+        "style_shift_by_time"
+      ],
+      "rag_queries": [
+        "语言风格匹配",
+        "language style matching",
+        "ConversationAlign lexical alignment",
+        "linguistic accommodation"
+      ],
+      "feature_filter": "lexical_alignment",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "style_alignment_score",
+        "mutual_alignment",
+        "one_sided_adaptation",
+        "style_change_points"
+      ]
+    },
+    {
+      "id": "emotion_affect",
+      "name_zh": "情绪状态与情绪同步",
+      "question": "两个人的情绪表达如何互相影响？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "positive_affect_rate",
+        "negative_affect_rate",
+        "emotion_shift",
+        "emotion_contagion",
+        "emotion_recovery_time"
+      ],
+      "rag_queries": [
+        "情绪 共情",
+        "emotion affect chat relationship",
+        "emotional dynamics text conversation"
+      ],
+      "feature_filter": "emotion_affect",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "emotion_score",
+        "dominant_affects",
+        "synchrony_notes",
+        "emotion_turning_points"
+      ]
+    },
+    {
+      "id": "social_support",
+      "name_zh": "支持、安慰与回应性",
+      "question": "一个人是否能在对方需要时提供支持？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "validation_count",
+        "reassurance_count",
+        "advice_count",
+        "practical_help_count",
+        "support_timing",
+        "support_received_response"
+      ],
+      "rag_queries": [
+        "支持 安慰",
+        "social support validation responsiveness",
+        "supportive communication text messages"
+      ],
+      "feature_filter": "social_support",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "support_score",
+        "support_types",
+        "support_balance",
+        "missed_support_moments"
+      ]
+    },
+    {
+      "id": "rapport_trust_intimacy",
+      "name_zh": "融洽、信任与亲密",
+      "question": "两个人之间是否存在稳定的亲近和信任信号？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "self_disclosure",
+        "inside_jokes",
+        "sensitive_topic_acceptance",
+        "future_planning",
+        "affection_terms",
+        "trust_repair"
+      ],
+      "rag_queries": [
+        "信任 融洽",
+        "rapport trust intimacy chat relationship",
+        "digital communication emotional intimacy"
+      ],
+      "feature_filter": "rapport_trust",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "rapport_score",
+        "trust_markers",
+        "intimacy_markers",
+        "fragility_notes"
+      ]
+    },
+    {
+      "id": "power_role",
+      "name_zh": "权力、角色与主导结构",
+      "question": "谁更常主导、要求、解释、配合或让步？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "directive_rate",
+        "explanation_rate",
+        "apology_rate",
+        "question_rate",
+        "topic_control",
+        "refusal_space"
+      ],
+      "rag_queries": [
+        "权力 角色",
+        "power role dominance politeness",
+        "request strategies instant messaging"
+      ],
+      "feature_filter": "power_role",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "power_asymmetry_score",
+        "dominance_markers",
+        "compliance_markers",
+        "role_pattern"
+      ]
+    },
+    {
+      "id": "conflict_repair",
+      "name_zh": "冲突、破裂与修复",
+      "question": "冲突之后，两个人如何恢复沟通？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "conflict_marker_count",
+        "withdrawal_count",
+        "repair_attempt_count",
+        "apology_count",
+        "repair_latency",
+        "post_conflict_recovery"
+      ],
+      "rag_queries": [
+        "冲突 修复",
+        "conflict rupture repair",
+        "relationship stress coping chat"
+      ],
+      "feature_filter": "conflict_repair",
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence",
+        "C_relationship_theory_background"
+      ],
+      "output": [
+        "conflict_score",
+        "repair_score",
+        "rupture_windows",
+        "repair_quality"
+      ]
+    },
+    {
+      "id": "modality_media",
+      "name_zh": "媒介使用模式",
+      "question": "文字、语音、图片、表情在关系里承担什么功能？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "type",
+        "content"
+      ],
+      "features": [
+        "text_ratio",
+        "voice_ratio",
+        "image_ratio",
+        "emoji_ratio",
+        "media_after_conflict",
+        "voice_for_sensitive_topics"
+      ],
+      "rag_queries": [
+        "instant messaging modality relationship",
+        "voice text messaging intimacy",
+        "computer mediated communication modality"
+      ],
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "media_profile",
+        "modality_asymmetry",
+        "media_function_notes"
+      ]
+    },
+    {
+      "id": "temporal_trajectory",
+      "name_zh": "时间趋势与关系阶段",
+      "question": "这段关系随时间如何变化？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "content"
+      ],
+      "features": [
+        "weekly_message_trend",
+        "latency_trend",
+        "support_trend",
+        "conflict_trend",
+        "alignment_trend",
+        "change_points"
+      ],
+      "rag_queries": [
+        "relationship trajectory communication over time",
+        "longitudinal digital communication relationship",
+        "chat relationship change over time"
+      ],
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence"
+      ],
+      "output": [
+        "stage_guess",
+        "trend_summary",
+        "change_points",
+        "recent_direction"
+      ]
+    },
+    {
+      "id": "safety_caveats",
+      "name_zh": "安全边界与不确定性",
+      "question": "哪些判断需要降级为低置信度？",
+      "wechat_fields": [
+        "sender",
+        "timestamp",
+        "type",
+        "content"
+      ],
+      "features": [
+        "sample_size_limit",
+        "missing_voice_transcripts",
+        "missing_context",
+        "single_sided_data",
+        "sparse_periods"
+      ],
+      "rag_queries": [
+        "chat analysis limitations",
+        "conversation analysis missing data",
+        "relationship inference uncertainty"
+      ],
+      "preferred_evidence": [
+        "A_direct_chat_evidence",
+        "B_transferable_conversation_evidence",
+        "C_relationship_theory_background"
+      ],
+      "output": [
+        "confidence_penalties",
+        "unsafe_claims_to_avoid",
+        "next_data_needed"
+      ]
+    }
+  ]
+}
